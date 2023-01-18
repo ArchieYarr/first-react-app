@@ -6,7 +6,7 @@ import Contact from "./Components/Contact"
 import About from "./Components/About"
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <NavBar />
 
       <Routes>
