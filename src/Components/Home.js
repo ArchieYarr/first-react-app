@@ -5,9 +5,10 @@ import homeHeader from "../Images/HomeImg/HomeSampleimg1.webp"
 function Home() {
   return (
 
-    <div className="md:container md:mx-auto">
+    <div className="min-h-screen">
    
-   <img class="object-center" src={homeHeader}></img>
+   <img class="object-fill " src={homeHeader}></img>
+   
 
 
 </div>

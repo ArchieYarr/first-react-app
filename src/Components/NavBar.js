@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className="navbar bg-base-100 ">
+    <div className="navbar bg-base-100 sticky top-0 z-50">
       <div className="flex-1">
         <a className="btn btn-ghost normal-case text-xl">Archie Yarr</a>
       </div>
