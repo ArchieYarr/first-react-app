@@ -5,9 +5,10 @@ import homeHeader from "../Images/HomeImg/HomeSampleimg1.webp"
 function Home() {
   return (
 
-    <div className="min-h-screen">
+    <div className="container">
    
-   <img class="object-fill " src={homeHeader}></img>
+   <img class="h-auto max-w-full " src={homeHeader}></img>
+
    
 
 
@@ -16,3 +17,5 @@ function Home() {
 }
 
 export default Home;
+
+  
