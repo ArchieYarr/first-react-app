@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  
   daisyui: {
     themes: [
       {
@@ -24,8 +25,13 @@ module.exports = {
         
 "error": "#F87272",
         },
+
+      containertheme:{
+        center: true,
+      },
       },
     ],
+    
   },
 
   // Original Daisy/ Tailwind guide code for this file, became redundant with new themes introduced
