@@ -15,13 +15,16 @@ function Home() {
         <img src={homeHeader} alt="filler" class="w-full h-32 sm:h-48 object-cover " ></img>
       <div className="card-body">
         <span className="font-bold">BBC Politics</span>
-        <span className="block text-gray-500 text-sm">BBC Case Study</span>
+        <span className="block text-gray-500 text-sm">Designing a new BBC digital product for 18-24 year olds!</span>
       
       <div className ="card-actions justify-end">
               <div className="badge badge-outline">Research </div>
-              <div className= "badge badge-outline">and other things</div>
+              <div className= "badge badge-outline">UX</div>
+              
             </div>
-
+            <div>
+            <button className="btn btn-primary">Explore!</button>
+            </div>
             </div>
       </div>
 
@@ -34,8 +37,11 @@ function Home() {
       <div className ="card-actions justify-end">
               <div className="badge badge-outline">Development </div>
               <div className= "badge badge-outline">Design</div>
+              
             </div>
-
+            <div>
+            <button className="btn btn-primary">Explore!</button>
+            </div>
             </div>
       </div>
 
