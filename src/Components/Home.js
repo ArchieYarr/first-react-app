@@ -4,7 +4,11 @@ import homeHeader from "../Images/HomeImg/HomeSampleimg1.webp";
 
 function Home() {
   return (
+    
+    //Grid Containing the Home Page Content
+    // div 1 = Heading Image, second nested grid contains the case study cards
     <div className="grid grid-cols-1  gap-10">
+
       <div className = "card">
         <img className=" " src={homeHeader}></img>
       </div>
@@ -46,6 +50,9 @@ function Home() {
       </div>
 
     </div>
+
+
+    
     </div>
   );
 }

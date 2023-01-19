@@ -1,8 +1,15 @@
 import ReactDOM from "react-dom/client";
 import React from "react";
+import homeHeader from "../Images/HomeImg/HomeSampleimg1.webp";
 
 function Contact() {
-  return <h1>Contact peepeepoopoo time</h1>;
+return(
+  <div className = "card" id = "contact">
+    <img className=" " src={homeHeader}></img>
+
+  </div>
+)
+  
 }
 
 export default Contact;

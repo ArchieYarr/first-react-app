@@ -1,32 +1,36 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
 function NavBar() {
   return (
-    <div className="navbar bg-base-100 sticky top-0 z-50">
+    <nav className="navbar bg-base-100 sticky top-0 z-50">
       <div className="flex-1">
         <a className="btn btn-ghost normal-case text-xl">Archie Yarr</a>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
-          <NavLink to="/Home">
+          
             <li>
-              <a>Home</a>
+              <a href = '/'>Home</a>
             </li>
-          </NavLink>
-          <NavLink to="/About">
+          
+         
             <li>
-              <a>About</a>
+              <a href = '/'>About</a>
             </li>
-          </NavLink>
-          <NavLink to="/Contact">
+          
+          
+          
             <li>
-              <a>Contact</a>
+              
+              <a href = '#contact'>Contact</a>
             </li>
-          </NavLink>
+            
+          
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
 
