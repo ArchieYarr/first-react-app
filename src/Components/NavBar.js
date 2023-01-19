@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import {Link} from "react-scroll"
 
 
 function NavBar() {
@@ -12,19 +13,19 @@ function NavBar() {
         <ul className="menu menu-horizontal px-1">
           
             <li>
-              <a href = '/'>Home</a>
+            <a href = "/" >Home</a>
             </li>
           
          
             <li>
-              <a href = '/'>About</a>
+            <Link to = 'about' spy={true} smooth={true} offset={50} duration={500} >About</Link>
             </li>
           
           
           
             <li>
               
-              <a href = '#contact'>Contact</a>
+              <Link to = 'contact' spy={true} smooth={true} offset={50} duration={500} >Contact</Link>
             </li>
             
           

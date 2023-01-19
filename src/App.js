@@ -9,6 +9,7 @@ function App() {
     <div className="">
       <NavBar />
       <Home />
+      <About />
       <Contact />
       
       
