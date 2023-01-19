@@ -1,21 +1,29 @@
 import ReactDOM from "react-dom/client";
 import React from "react";
 import homeHeader from "../Images/HomeImg/HomeSampleimg1.webp";
+import {Link} from "react-scroll"
 
 function Home() {
   return (
     
     //Grid Containing the Home Page Content
-    // div 1 = Heading Image, second nested grid contains the case study cards
+    // div 1 = Heading Image, second nested grid contains the case study cards 
     <div className="grid grid-cols-1  gap-10">
 
-      <div className = "card">
-        <img className=" " src={homeHeader}></img>
-      </div>
+<div className="hero min-h-screen bg-base-200">
+  <div className="hero-content flex-col lg:flex-row">
+  <img className=" max-w-sm rounded-lg shadow-2xl" src={homeHeader}/> 
+    <div>
+      <h1 className="text-5xl font-bold">Hi! I'm Archie thanks for taking a look.</h1>
+      <p className="py-6">Welcome to my portfolio page, theres a selection of work that I have done and some information about me and how to get in touch!</p>
+      <Link to = 'Study1' spy={true} smooth={true} offset={50} duration={500}><button className="btn btn-primary">Check out my work!</button></Link>
+    </div>
+  </div>
+</div>
 
-      <div className ="mt-8 grid grid-cols-1 px-80 gap-10" >
+      <div className ="mt-8 grid grid-cols-1 px-80 gap-10" id ="Study1">
 
-      <div className = "card lg:card-side bg-base-100 shadow-xl">
+      <div className = "card lg:card-side bg-base-100 shadow-xl" >
         <figure><img src={homeHeader} alt="filler"  ></img></figure>
       <div className="card-body">
         <span className="font-bold">BBC Politics</span>

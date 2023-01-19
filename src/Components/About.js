@@ -14,7 +14,9 @@ function About() {
               <div className= "badge badge-outline">Me!</div>
               
             </div>
-            
+            <div>
+            <button className="btn btn-primary">Check out my CV!</button>
+            </div>
             </div>
       </div>
   )
