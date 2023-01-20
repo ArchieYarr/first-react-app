@@ -5,7 +5,7 @@ import git from "../Images/ContactImg/icons8-github.svg";
 
 function Contact() {
 return(
-  <div className="hero min-h-min bg-base-200" id = "contact">
+  <div className="hero min-h-screen bg-base-200" id = "contact">
   <div className="hero-content text-center ">
     <div className="">
       <h1 className="text-5xl  font-bold">archieyarr@outlook.com</h1>

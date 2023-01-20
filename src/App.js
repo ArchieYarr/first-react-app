@@ -4,15 +4,18 @@ import NavBar from "./Components/NavBar";
 import Home from "./Components/Home"
 import Contact from "./Components/Contact"
 import About from "./Components/About"
+import Footer from "./Components/Footer"
+import BBCPolitics from "./Components/CaseStudies/BBCPolitics";
+
+
 function App() {
   return (
     <div className="bg-base-200">
       <NavBar />
-      <Home />
-      <About />
-      <Contact />
-      
-      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/CaseStudies/BBCPolitics" element={<BBCPolitics />} />
+      </Routes>
     </div>
   );
 }
