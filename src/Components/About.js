@@ -4,7 +4,7 @@ import homeHeader from "../Images/HomeImg/HomeSampleimg1.webp";
 import CV from "../Images/HomeImg/Archie Yarr CV.pdf";
 function About() {
   return (
-    <div className="flex flex-row min-h-screen bg-base-200" id = "about">
+    <div className="flex flex-row min-h-screen bg-base-200 py-52" id = "about">
     <div className=" flex-col lg:flex-row">
       
       <div className = "">
