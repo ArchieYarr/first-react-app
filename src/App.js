@@ -6,6 +6,7 @@ import Contact from "./Components/Contact"
 import About from "./Components/About"
 import Footer from "./Components/Footer"
 import BBCPolitics from "./Components/CaseStudies/BBCPolitics";
+import PortfolioSite from "./Components/CaseStudies/PortfolioSite"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/CaseStudies/BBCPolitics" element={<BBCPolitics />} />
+        <Route path="/CaseStudies/PortfolioSite" element={<PortfolioSite />} />
       </Routes>
     </div>
   );
