@@ -18,11 +18,11 @@ function NavBar() {
         <div className="flex space-x-4 px-1 ">
           
             
-            <a className = "btn btn-ghost normal-case" href = "/" >Home</a>
+            <a className = "btn btn-ghost active:bg-primary normal-case" href = "/" >Home</a>
             
-            <Link className = "btn btn-ghost normal-case" to= "about" spy={true} smooth={true} offset={50} duration={500} >About</Link>
+            <Link className = "btn btn-ghost active:bg-primary normal-case" to= "about" spy={true} smooth={true} offset={50} duration={500} >About</Link>
 
-              <Link className = "btn btn-ghost normal-case" to = 'contact' spy={true} smooth={true} offset={50} duration={500} >Contact</Link>
+              <Link className = "btn btn-ghost active:bg-primary normal-case" to = 'contact' spy={true} smooth={true} offset={50} duration={500} >Contact</Link>
             
             
           
