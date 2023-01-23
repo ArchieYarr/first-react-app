@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import BurgerMenu from "../../Images/NavImg/Icons8-menu.gif";
+import BurgerMenu from "../Images/NavImg/Icons8-menu.gif";
 
 
 function NavBar() {
@@ -27,16 +27,7 @@ function NavBar() {
 {/* Flexible burger menu button */}
       <div className = "lg:hidden flex items-center">
         <button className = "outline-none mobile-menu-button"> 
-          <svg className = "w-6 h-6 text-accent"
-                x-show = "!showMenu"
-                fill = "none"
-                strokeLinecap = "round"
-                strokeLinejoin ="round"
-                strokeWidth = "2"
-                viewBox = "0 0 24 24"
-                stroke= "currentColor">
-          <path d= "M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
+          <img src = {BurgerMenu}></img>
         </button>
       </div>
       <div className=" hidden mobile-menu ">
