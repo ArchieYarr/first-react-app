@@ -1,6 +1,6 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import BurgerMenu from "../Images/NavImg/Icons8-menu.gif";
+import BurgerMenu from "../Images/Icons8-menu";
 
 
 function NavBar() {
