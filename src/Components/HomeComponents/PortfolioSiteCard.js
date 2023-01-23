@@ -6,7 +6,7 @@ function PortfolioSiteCard() {
   return ( 
 
     <div className = "card lg:card-side bg-base-100  shadow-xl h-auto w-auto m-8">
-        <figure className = "w-6/12 h-64  "><img src={ThisProject} alt="filler"  ></img></figure>
+        <figure className = "lg:w-6/12 lg:h-64  "><img src={ThisProject} alt="filler"  ></img></figure>
       <div className="card-body">
       <div className ="card-actions justify-start">
               <div className="badge badge-outline">Development </div>
