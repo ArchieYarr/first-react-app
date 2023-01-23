@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import {Link} from "react-scroll"
 
 
@@ -18,11 +18,11 @@ function NavBar() {
         <div className="flex space-x-4 px-1 ">
           
             
-            <a className = "btn btn-ghost active:bg-primary normal-case" href = "/" >Home</a>
+            <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = "/#home" spy={true} smooth={true} offset={50} duration={500}>Home</HashLink>
             
-            <Link className = "btn btn-ghost active:bg-primary normal-case" to= "about" spy={true} smooth={true} offset={50} duration={500} >About</Link>
+            <HashLink className = "btn btn-ghost active:bg-primary normal-case" to= "/#about" spy={true} smooth={true} offset={50} duration={500} >About</HashLink>
 
-              <Link className = "btn btn-ghost active:bg-primary normal-case" to = 'contact' spy={true} smooth={true} offset={50} duration={500} >Contact</Link>
+              <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = '/#contact' spy={true} smooth={true} offset={50} duration={500} >Contact</HashLink>
             
             
           
