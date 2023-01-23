@@ -32,7 +32,7 @@ function Home() {
   </div>
 </div>
 
-      <div className ="mt-8 grid-cols-1 grid-flow-col gap-10 lg:px-80 lg:pt-52" id ="Study1" >
+      <div className ="mt-8 grid-cols-1 grid-flow-col gap-10 lg:px-80 lg:pt-52 lg:pb-52" id ="Study1" >
 
       <BBCPoliticsCard />
       <PortfolioSiteCard />

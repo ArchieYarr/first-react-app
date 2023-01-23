@@ -5,9 +5,9 @@ import git from "../Images/ContactImg/icons8-github.svg";
 
 function Contact() {
 return(
-  <div className="hero min-h-screen bg-base-200" id = "contact">
-  <div className="hero-content text-center  ">
-    <div className="">
+  <div className="bg-base-200 text-center py-52 " id = "contact">
+  
+    
       <h1 className="text-5xl  font-bold">archieyarr@outlook.com</h1>
       <p className="font-semibold py-6">I am always interested to hear from new people so feel free to get in touch! <br/>Drop me an email, message me on LinkedIn or check out more of my stuff on my github :)</p>
       
@@ -17,8 +17,8 @@ return(
       <a target = "blank" href = "https://github.com/ArchieYarr"><img className = "btn btn-ghost"src={git}></img></a> <a target="_blank" href="https://icons8.com"></a>
       </div>
     </div>
-  </div>
-</div>
+  
+
 )
   
 }
