@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  variants: {
+    animation: ["motion-safe"]
+},
+  
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   
   daisyui: {
@@ -31,6 +35,9 @@ module.exports = {
       containertheme:{
         center: true,
       },
+
+     
+      
      
 
       },
@@ -38,10 +45,18 @@ module.exports = {
     
   },
 
-  // Original Daisy/ Tailwind guide code for this file, became redundant with new themes introduced
-  /*theme: {
-    extend: {},
+  
+  theme: {
+    extend: {animation: {
+      fadeIn: "fadeIn 2s ease-in forwards"
+    },
+    keyframes: {
+      fadeIn: {
+        "0%": { opacity: 0 },
+        "100%": { opacity: 1 }
+      }
+    }},
     
-  },*/
+  },
   plugins: [require("daisyui")],
 }

@@ -6,7 +6,7 @@ function BBCPolitics() {
   return(
   <div className="hero min-h-screen" >
   
-  <div className="hero-content text-start text-neutral-content">
+  <div className="hero-content text-start text-neutral-content motion-safe:animate-fadeIn">
   <img src={BBC} className="max-w-sm rounded-lg shadow-2xl" />
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">BBC Politics</h1>
