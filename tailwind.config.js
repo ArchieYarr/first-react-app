@@ -24,6 +24,8 @@ module.exports = {
 "warning": "#FBBD23",
         
 "error": "#F87272",
+
+"bbc": "#861657",
         },
 
       containertheme:{
