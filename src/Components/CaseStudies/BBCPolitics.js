@@ -4,16 +4,28 @@ import {Link} from "react-scroll"
 
 function BBCPolitics() {
   return(
-  <div className="hero min-h-screen" >
   
-  <div className="hero-content text-start text-neutral-content motion-safe:animate-fadeIn">
+    <div>
+{/* -----------Title Hero----------- */}
+  <div className="hero min-h-screen bg-base-100" >
+  
+  <div className="hero-content  text-start text-neutral-content motion-safe:animate-fadeIn">
   <img src={BBC} className="max-w-sm rounded-lg shadow-2xl" />
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">BBC Politics</h1>
       <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
+      <div className ="flex p-2">
+      <button className="btn btn-primary ">Get started</button>
+      <p className = "p-2 px-8 font-bold text-2x1 text-center">OR </p>
+      <button className="btn btn-primary">Summary</button>
+      </div>
     </div>
   </div>
+</div>
+{/* -----------Title Hero END----------- */}
+
+
+
 </div>
 )
 }

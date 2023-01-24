@@ -11,13 +11,18 @@ import PortfolioSite from "./Components/CaseStudies/PortfolioSite"
 
 function App() {
   return (
-    <div className="bg-base-200">
+    <div>
+    
+      
       <NavBar />
+      <div className="bg-base-200">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/CaseStudies/BBCPolitics" element={<BBCPolitics />} />
         <Route path="/CaseStudies/PortfolioSite" element={<PortfolioSite />} />
       </Routes>
+      
+    </div>
     </div>
   );
 }
