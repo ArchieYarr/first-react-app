@@ -21,7 +21,7 @@ function NavBar() {
         <div className=" hidden lg:flex  space-x-4 px-1 ">
             <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = "/#home" spy={true} smooth={true} offset={50} duration={500}>Home</HashLink>
             <HashLink className = "btn btn-ghost active:bg-primary normal-case" to= "/#about" spy={true} smooth={true} offset={50} duration={500} >About</HashLink>
-              <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = '/#contact' spy={true} smooth={true} offset={50} duration={500} >Contact</HashLink>  
+              <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = '#contact' spy={true} smooth={true} offset={50} duration={500} >Contact</HashLink>  
         </div>
         </div>
       

@@ -1,6 +1,7 @@
 import React from "react";
 import BBC from "../../Images/BBCImg/BBCPoliticsLogo.PNG";
 import {Link} from "react-scroll"
+import Contact from "../Contact"
 
 function BBCPolitics() {
   return(
@@ -17,7 +18,7 @@ function BBCPolitics() {
       <div className ="flex p-2">
       <button className="btn btn-primary ">Get started</button>
       <p className = "p-2 px-8 font-bold text-2x1 text-center">OR </p>
-      <button className="btn btn-primary">Summary</button>
+      <Link to = 'summary' spy={true} smooth={true} offset={50} duration={500}><button className="btn btn-primary">Summary</button></Link>
       </div>
     </div>
   </div>
@@ -25,7 +26,16 @@ function BBCPolitics() {
 {/* -----------Title Hero END----------- */}
 
 
+{/* -----------Summary Start----------- */}
 
+<div className="grid grid-cols-1" id = "summary">
+
+
+</div>
+
+{/* -----------Summary End----------- */}
+
+<Contact />
 </div>
 )
 }
