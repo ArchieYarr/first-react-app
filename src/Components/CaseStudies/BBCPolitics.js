@@ -5,6 +5,7 @@ import Contact from "../Contact"
 import Footer from "../Footer"
 import FigmaEmbed from 'react-figma-embed';
 import { Figma } from "grommet-icons";
+import OnboardingSlider from "./BBCPoliticsComponents/OnboardingSlider";
 
 function BBCPolitics() {
   return(
@@ -89,6 +90,7 @@ function BBCPolitics() {
     <h1 className="text-4xl font-bold break-normal py-2">Proposed Solution</h1>
     
     <div className = "flex flex-row py-8 gap-8">
+      
     <p>FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
     <img src={BBC} className=" lg:max-w-screen rounded-lg h-min shadow-2xl " />
     </div>
@@ -117,6 +119,7 @@ function BBCPolitics() {
   {/* -----------Summary End----------- */}
 
 <Contact />
+<OnboardingSlider />
 <Footer />
 </div>
 )
