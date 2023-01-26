@@ -2,6 +2,8 @@ import React from "react";
 import BBC from "../../Images/BBCImg/BBCPoliticsLogo.PNG";
 import {Link} from "react-scroll"
 import Contact from "../Contact"
+import FigmaEmbed from 'react-figma-embed';
+import { Figma } from "grommet-icons";
 
 function BBCPolitics() {
   return(
@@ -28,7 +30,7 @@ function BBCPolitics() {
 
   {/* -----------Summary Start----------- */}
 
-    <div className=" p-32 " id= "summary">
+  <div className=" p-32 " id= "summary">
 
     {/* Specification content */}
     <div className = "pr-32">
@@ -55,7 +57,7 @@ function BBCPolitics() {
         <img src={BBC} className=" w-screen rounded-lg h-min shadow-2xl " />
         </div>
     
-        <div className = "flex flex-row justify-end pr-32 py-2 gap-2">
+        <div className = "flex flex-row justify-end pr-32 py-2 gap-8">
           <p>FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
         <img src={BBC} className=" lg:max-w-screen rounded-lg h-min shadow-2xl alig" />
         </div>
@@ -66,16 +68,37 @@ function BBCPolitics() {
     {/* Demographic Content */}
 
     {/* Competitor Content */}
-    <div>
-
+    <div className="py-8">
+    <h1 className="text-4xl font-bold break-normal">Competitors</h1>
+    <div className = "flex flex-row justify-end pr-32 py-2 gap-8">
+    <img src={BBC} className=" lg:max-w-screen rounded-lg h-min shadow-2xl alig" />
+          <p>FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
+        
+        </div>
       
     </div>
     
     {/* Competitor Content */}
+  </div>
+    {/* Proposed Solution */}
+ 
+    <div className="bg-neutral px-32 shadow-2xl">
+
+    <div>
+    <h1 className="text-4xl font-bold break-normal py-2">Proposed Solution</h1>
+    </div>
     
-    
+    <div className="flex flex-row place-content-center">
+      <FigmaEmbed url = "https://www.figma.com/proto/BgMsPUqHRIAdcq1XldosgI/BBC-Politics?page-id=0%3A1&node-id=2%3A2&viewport=667%2C307%2C0.09&scaling=scale-down&starting-point-node-id=2%3A2&show-proto-sidebar=1"/>
+    </div>
     
     </div>
+
+    {/* Proposed Solution */}
+    
+    
+    
+    
 
   {/* -----------Summary End----------- */}
 
