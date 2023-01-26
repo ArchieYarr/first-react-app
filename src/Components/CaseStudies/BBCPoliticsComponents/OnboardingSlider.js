@@ -65,9 +65,9 @@ function OnboardingSlider(){
 
     return(
 
-        <div className = " h-screen w-screen m-auto relative group">
+        <div className = " h-96 w-96 m-auto relative group pr-px">
 
-            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "inset-0 w-full h-full rounded-l-2xl bg-center bg-auto duration-500"></div>
+            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "inset-0 w-full h-full rounded-l-2xl bg-center  duration-500"></div>
             {/* left Arrow */}
             <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 -translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                 <BsChevronCompactLeft onClick = {prevSlide} size={30} />

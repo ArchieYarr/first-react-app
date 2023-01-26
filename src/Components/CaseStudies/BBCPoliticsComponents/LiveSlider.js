@@ -65,7 +65,7 @@ function LiveSlider(){
 
     return(
 
-        <div className = "max-w-[1400px] h-[780px] w-full m-auto relative group">
+        <div className = "max-w-[1400px] h-[780px] w-full m-auto relative group pr-px">
 
             <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-l-2xl bg-center bg-cover duration-500"></div>
             {/* left Arrow */}

@@ -36,6 +36,7 @@ module.exports = {
         center: true,
       },
 
+      
      
       
      
@@ -56,6 +57,7 @@ module.exports = {
         "100%": { opacity: 1 }
       }
     }},
+    
     
   },
   plugins: [require("daisyui", 'tw-elements/dist/plugin')],
