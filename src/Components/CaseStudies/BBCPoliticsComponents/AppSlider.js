@@ -65,7 +65,7 @@ function AppSlider(){
 
     return(
 
-        <div className = "max-w-[1400px] h-[780px] w-full m-auto relative group">
+        <div className = "h-[52rem] w-[32rem]  m-auto relative group">
 
             <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-r-2xl bg-center bg-contain duration-500"></div>
             {/* left Arrow */}
