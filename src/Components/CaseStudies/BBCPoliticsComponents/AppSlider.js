@@ -1,25 +1,23 @@
 import {React, useState, useEffect} from "react"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
 import bBC from "../../../Images/BBCImg/BBCPoliticsLogo.PNG";
-import onboarding1 from "../../../Images/BBCImg/Onboarding1.PNG"
-import onboarding2 from "../../../Images/BBCImg/Onboarding2.PNG"
-import onboarding3 from "../../../Images/BBCImg/Onboarding3.PNG"
+import home1 from "../../../Images/BBCImg/Home1.PNG"
+import home2 from "../../../Images/BBCImg/Home2.PNG"
+import home3 from "../../../Images/BBCImg/Home3.PNG"
 
 
 function AppSlider(){
     //putting imports into array 
     const slides = [
+        
         {
-            url: bBC
+            url:home1
         },
         {
-            url:onboarding1
+            url:home2
         },
         {
-            url:onboarding2
-        },
-        {
-            url:onboarding3
+            url:home3
         },
 
     ];
@@ -69,7 +67,7 @@ function AppSlider(){
 
         <div className = "max-w-[1400px] h-[780px] w-full m-auto relative group">
 
-            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-r-2xl bg-center bg-cover duration-500"></div>
+            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-r-2xl bg-center bg-contain duration-500"></div>
             {/* left Arrow */}
             <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 -translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                 <BsChevronCompactLeft onClick = {prevSlide} size={30} />

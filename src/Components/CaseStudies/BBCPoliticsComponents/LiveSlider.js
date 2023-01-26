@@ -9,9 +9,7 @@ import onboarding3 from "../../../Images/BBCImg/Onboarding3.PNG"
 function LiveSlider(){
     //putting imports into array 
     const slides = [
-        {
-            url: bBC
-        },
+        
         {
             url:onboarding1
         },
