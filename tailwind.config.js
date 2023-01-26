@@ -4,7 +4,7 @@ module.exports = {
     animation: ["motion-safe"]
 },
   
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", './node_modules/tw-elements/dist/js/**/*.js'],
   
   daisyui: {
     themes: [
@@ -58,5 +58,5 @@ module.exports = {
     }},
     
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui", 'tw-elements/dist/plugin')],
 }

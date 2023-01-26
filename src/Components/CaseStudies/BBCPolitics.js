@@ -2,6 +2,7 @@ import React from "react";
 import BBC from "../../Images/BBCImg/BBCPoliticsLogo.PNG";
 import {Link} from "react-scroll"
 import Contact from "../Contact"
+import Footer from "../Footer"
 import FigmaEmbed from 'react-figma-embed';
 import { Figma } from "grommet-icons";
 
@@ -68,7 +69,7 @@ function BBCPolitics() {
     {/* Demographic Content */}
 
     {/* Competitor Content */}
-    <div className="py-8">
+    <div className="py-4">
     <h1 className="text-4xl font-bold break-normal">Competitors</h1>
     <div className = "flex flex-row justify-end pr-32 py-2 gap-8">
     <img src={BBC} className=" lg:max-w-screen rounded-lg h-min shadow-2xl alig" />
@@ -82,16 +83,27 @@ function BBCPolitics() {
   </div>
     {/* Proposed Solution */}
  
-    <div className="bg-neutral px-32 shadow-2xl">
+    <div className="">
 
-    <div>
+    <div className="px-32">
     <h1 className="text-4xl font-bold break-normal py-2">Proposed Solution</h1>
     </div>
     
-    <div className="flex flex-row place-content-center">
-      <FigmaEmbed url = "https://www.figma.com/proto/BgMsPUqHRIAdcq1XldosgI/BBC-Politics?page-id=0%3A1&node-id=2%3A2&viewport=667%2C307%2C0.09&scaling=scale-down&starting-point-node-id=2%3A2&show-proto-sidebar=1"/>
-    </div>
+    <div>
+
+
     
+
+
+
+
+    </div>
+
+    <div className="flex flex-row place-content-center  ">
+      <FigmaEmbed className = "shadow-2xl w-screen h-screen" url = "https://www.figma.com/proto/BgMsPUqHRIAdcq1XldosgI/BBC-Politics?page-id=0%3A1&node-id=2%3A2&viewport=667%2C307%2C0.09&scaling=contain&starting-point-node-id=2%3A2"/>
+    </div>
+
+
     </div>
 
     {/* Proposed Solution */}
@@ -103,6 +115,7 @@ function BBCPolitics() {
   {/* -----------Summary End----------- */}
 
 <Contact />
+<Footer />
 </div>
 )
 }
