@@ -19,7 +19,7 @@ function Home() {
     
     //Grid Containing the Home Page Content
     // div 1 = Heading Image, second nested grid contains the case study cards 
-    <div className="grid grid-cols-1  gap-10 " id = "home">
+    <div className="flex flex-col  gap-10 " id = "home">
 
 <div className="hero min-h-screen bg-base-100 shadow-2x1 ">
   <div className="hero-content flex-col lg:flex-row">
@@ -39,8 +39,13 @@ function Home() {
 
     </div>
 
+    <div className="lg:pb-96">
       <About />
+      </div>
+
+      
       <Contact />
+    
       <Footer />
     
     </div>

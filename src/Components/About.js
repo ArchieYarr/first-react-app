@@ -6,9 +6,9 @@ import CV from "../Images/HomeImg/Archie Yarr CV.pdf";
 
 function About() {
   return (
-    <div className=" lg:pl-52 lg:pr-96 h-screen    " id = "about">
-    <div className = "grid grid-cols-2  md:grid-cols-2 md:grid-rows-2 grid-rows-2 gap-10">
-          
+    <div className=" lg:pl-52 lg:pr-96 h-screen pb-52    " id = "about">
+    <div className = " flex flex-row gap-10">
+          {/* grid grid-cols-2  md:grid-cols-2 md:grid-rows-2 grid-rows-2 */}
           <div>
             
           <img className=" lg:max-w-screen-sm md:min-w-screen-sm rounded-lg h-initial shadow-2xl " src={CVImg}></img>
