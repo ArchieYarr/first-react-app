@@ -13,6 +13,7 @@ import EmpathyMap from "../../Images/BBCImg/EmpathyMap.png"
 import OnboardingSlider from "./BBCPoliticsComponents/OnboardingSlider";
 import AppSlider from "./BBCPoliticsComponents/AppSlider";
 import LiveSlider from "./BBCPoliticsComponents/LiveSlider"
+import DemographicSlider from "./BBCPoliticsComponents/DemographicSlider";
 import Contact from "../Contact"
 import Footer from "../Footer"
 import FigmaEmbed from 'react-figma-embed';
@@ -105,7 +106,9 @@ function BBCPolitics() {
     
         <div className = "pr-32 py-8 gap-8">
           <p className="text-justify pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
-        <img src={AffinityDiagram} className=" rounded-lg h-min w-min shadow-2xl" />
+        <DemographicSlider />
+        
+        {/* <img src={AffinityDiagram} className=" rounded-lg h-min w-min shadow-2xl" /> */}
         </div>
         </div>
 

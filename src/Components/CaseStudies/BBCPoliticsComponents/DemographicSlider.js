@@ -1,7 +1,7 @@
 import {React, useState, useEffect} from "react"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
-import AffinityDiagram from "../../Images/BBCImg/AffinityDiagram.png"
-import EmpathyMap from "../../Images/BBCImg/EmpathyMap.png"
+import AffinityDiagram from "../../../Images/BBCImg/AffinityDiagram.png"
+import EmpathyMap from "../../../Images/BBCImg/EmpathyMap.png"
 
 
 function DemographicSlider(){
@@ -61,7 +61,7 @@ function DemographicSlider(){
 
     return(
 
-        <div className = "h-[52rem] w-[32rem]  m-auto relative group">
+        <div className = "w-[85rem] h-screen m-auto relative group">
 
             <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-r-2xl bg-center bg-contain duration-500"></div>
             {/* left Arrow */}
