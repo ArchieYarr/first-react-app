@@ -64,7 +64,7 @@ function BBCPolitics() {
         <li>Health</li>
         <li>Gaming</li>
       </ul>
-      <p>I chose to focus on politics as I found interesting trends in the 18-24-year-old demographic that opened up opportunities for exciting designs. The project was broken down across 4 stages, discover, define, develop and deliver. </p>
+      <p>I chose to focus on politics as I found interesting trends in the 18-24-year-old demographic that opened up opportunities for exciting designs. The project was broken down across 4 stages, discover, define, develop and deliver. The full specification has a detailed breakdown of what each stage involved, otherwise the important bits are all summarised below :) </p>
 
         
 
