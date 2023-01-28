@@ -6,6 +6,8 @@ import BBC from "../../Images/BBCImg/BBCPoliticsLogo.PNG";
 import BBCLogo from "../../Images/BBCImg/icons8-bbc-500.png";
 import Stat1 from "../../Images/BBCImg/UntitledDesign1.svg";
 import BBCBrief from "../../Images/BBCImg/BBCBriefPDF.pdf"
+import AffinityDiagram from "../../Images/BBCImg/AffinityDiagram.png"
+import EmpathyMap from "../../Images/BBCImg/EmpathyMap.png"
 
 // Component Imports
 import OnboardingSlider from "./BBCPoliticsComponents/OnboardingSlider";
@@ -79,7 +81,7 @@ function BBCPolitics() {
     {/* Demographic Content */}
     <div className="py-8">
     <h1 className="text-4xl font-bold break-normal">The Demographic</h1>
-    <p className="text-justify py-8 pr-32">18-24-year-olds are overrepresented as digital users. Compared to their older counterparts they spend more of their digital time on mobile devices  and prefer to view content by video or audio. They are open to new digital products and will transition to the next big thing when it comes around.</p>
+    <p className="text-justify py-8 pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
         <div className="flex flex-col gap-2">
           
         <div className="flex items-end gap-24 py-8 ">
@@ -101,9 +103,9 @@ function BBCPolitics() {
         </div>
         </div>
     
-        <div className = "flex flex-row justify-end pr-32 py-2 gap-8">
-          <p className="text-justify">FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
-        <img src={BBC} className=" lg:max-w-screen rounded-lg h-min shadow-2xl alig" />
+        <div className = "pr-32 py-8 gap-8">
+          <p className="text-justify pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
+        <img src={AffinityDiagram} className=" rounded-lg h-min w-min shadow-2xl" />
         </div>
         </div>
 
