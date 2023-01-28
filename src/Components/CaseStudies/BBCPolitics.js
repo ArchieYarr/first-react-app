@@ -49,7 +49,7 @@ function BBCPolitics() {
       <div className="flex flex-row py-8">
       
       <div className = "pr-10">
-      <img src={BBCLogo} className="lg:max-w-screen-sm md:min-w-screen-sm rounded-lg h-initial  " />
+      <img src={BBCLogo} className="lg:max-w-screen-sm md:min-w-screen-sm rounded-lg h-initial motion-safe:animate-fadeInLeft  " />
       </div>
 
       <div className="flex flex-col gap-8">

@@ -51,13 +51,27 @@ module.exports = {
   
   theme: {
     extend: {animation: {
-      fadeIn: "fadeIn 2s ease-in forwards"
+      fadeIn: "fadeIn 2s ease-in forwards",
+      fadeInLeft:"fadeInLeft 2s ease-out"
     },
     keyframes: {
       fadeIn: {
         "0%": { opacity: 0 },
         "100%": { opacity: 1 }
+      },
+    fadeInLeft:{
+      "0%":{opacity: 0,
+            transform: "translateX(-40px)"
+      },
+      "100%":{
+        opacity:1,
+        transform: "translateX(0)"
       }
+      
+      
+
+    }
+    
     }},
     
     
