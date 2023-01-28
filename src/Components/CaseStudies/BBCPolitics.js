@@ -55,7 +55,7 @@ function BBCPolitics() {
       <div className="flex flex-col gap-8">
 
       <h1 className="text-4xl font-bold break-normal">The Specification</h1>
-      <p className="text-justify">The BBC is the world's most recognized creative organisation and the state broadcaster in the United Kingdom for over 100 years. They broadcast and produce a variety of content. From drama, comedy, sports and news they broadcast across TV, digital and web platforms. The BBC User Experience and Design (UX&D) department shapes the user experience across the BBC's digital product suite. It is made up of UX designers, architects and researchers who collaborate across the organisation to create excellent digital experiences. As part of a UX module I studied the team set us a specification to create a new digital product to add to the suite, aimed at 18-24-year-olds.  </p>
+      <p className="text-justify">The BBC is the world's most recognized creative organisation and the state broadcaster in the United Kingdom for over 100 years. They broadcast and produce a variety of content. From drama, comedy, sports and news they broadcast across TV, digital and web platforms. The BBC User Experience and Design (UX&D) department shapes the user experience across the BBC's digital product suite. It is made up of UX designers, architects and researchers who collaborate across the organisation to create excellent digital experiences. As part of a UX module I studied in my final year of University the team set us a specification to create a new digital product to add to the suite, aimed at 18-24-year-olds.  </p>
       <h2 className="text-2xl font-bold break-normal">Project Background</h2>
       <p>Due to a drop in interest amongst younger audiences across their services, the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore, trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:
        <ul className="pl-8 py-2 list-disc">
@@ -79,12 +79,26 @@ function BBCPolitics() {
     {/* Demographic Content */}
     <div className="py-8">
     <h1 className="text-4xl font-bold break-normal">The Demographic</h1>
-      <p className="text-justify py-8">FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.</p>
-        <div className="grid grid-rows-2 gap-2">
-        <div className="flex flex-row  place-content-start py-8 gap-52">
-        <img src={Stat1} className="w-52   h-52  flex-basis-1/3" />
-        <img src={Stat1} className=" w-52  h-52  flex-basis-1/3" />
-        <img src={Stat1} className=" w-52  h-52  flex-basis-1/3" />
+    <p className="text-justify py-8 pr-32">18-24-year-olds are overrepresented as digital users. Compared to their older counterparts they spend more of their digital time on mobile devices  and prefer to view content by video or audio. They are open to new digital products and will transition to the next big thing when it comes around.</p>
+        <div className="flex flex-col gap-2">
+          
+        <div className="flex items-end gap-24 py-8 ">
+        <div className = "flex flex-col items-center">
+        <img src={Stat1} className="w-52   h-52  " />
+        <p className="text-center">88% of the demographic hold <br/> a social media account.</p>
+        </div>
+        <div className="flex flex-col items-center">
+        <img src={Stat1} className=" w-52  h-52  " />
+        <p className="text-center">70% of the demographic spend <br/> most of their digital time on a mobile device.</p>
+        </div>
+        <div className="flex flex-col items-center">
+        <img src={Stat1} className=" w-52  h-52  " />
+        <p className="text-center">70% of the demographic garnered<br/> information on the 2020 presidential election online.</p>
+        </div>
+        <div className="flex flex-col items-center">
+        <img src={Stat1} className=" w-52  h-52  " />
+        <p className="text-center">51% of the demographic <br/>use image led social media over alternatives</p>
+        </div>
         </div>
     
         <div className = "flex flex-row justify-end pr-32 py-2 gap-8">
