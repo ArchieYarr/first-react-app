@@ -86,18 +86,18 @@ function BBCPolitics() {
     <p className="text-justify py-8 pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
         <div className="flex flex-col gap-2">
        
-        <div className="flex items-end gap-24 py-8 ">
+        <div className="flex items-start gap-40 py-8 ">
 
         <div className = "flex flex-col items-center " >
         <img src={Stat1} className="w-52  h-52  " /> 
         
-        <p className="text-center font-semibold ">hold a social media account.</p>
+        <p className="text-center font-semibold ">hold a social media account.<br/></p>
         </div>
 
         <div className="flex flex-col items-center">
         <img src={Stat2} className=" w-52  h-52  " />
         
-        <p className="text-center font-semibold">spend most of their digital time on a mobile device.</p>
+        <p className="text-center font-semibold">spend most of their digital time <br/> on a mobile device.</p>
         </div>
 
         <div className="flex flex-col items-center">
@@ -107,7 +107,7 @@ function BBCPolitics() {
 
         <div className="flex flex-col items-center">
         <img src={Stat3} className=" w-52  h-52  " />
-        <p className="text-center font-semibold">51% of the demographic <br/>use image led social media over alternatives</p>
+        <p className="text-center font-semibold">use image led social media over alternatives</p>
         </div>
 
         </div>
