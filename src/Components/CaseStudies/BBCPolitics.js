@@ -78,9 +78,10 @@ function BBCPolitics() {
       
     </div>
     {/* Specification content */}
-
+    </div>
     {/* Demographic Content */}
-    <div className="py-8">
+    <div className="py-8 bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
+      <div className="lg:p-32">
     <h1 className="text-4xl font-bold break-normal">The Demographic</h1>
     <p className="text-justify py-8 pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
         <div className="flex flex-col gap-2">
@@ -104,20 +105,20 @@ function BBCPolitics() {
         </div>
         </div>
     
-        <div className = "pr-32 py-8 gap-8">
+        <div className = " py-8 gap-8">
           <p className="text-justify pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
         <DemographicSlider />
+        <p className="text-justify">After crafting an image of the target demographic I was able to begin to address the problem area and come up with some questions and statements to attempt to solve potential problems the demographic might experience.</p>
         
-        {/* <img src={AffinityDiagram} className=" rounded-lg h-min w-min shadow-2xl" /> */}
         </div>
         </div>
-
+        </div>
     </div>
 
     {/* Demographic Content */}
 
     {/* Competitor Content */}
-    <div className="py-8">
+    <div className="lg:p-32">
     
     <div className = "flex flex-row justify-end pr-32 py-8 gap-8">
     <img src={BBC} className=" lg:max-w-screen rounded-lg h-min shadow-2xl " />
@@ -130,7 +131,7 @@ function BBCPolitics() {
     </div>
     
     {/* Competitor Content */}
-    </div>
+    
     {/* Proposed Solution */}
  
     <div className="bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
@@ -146,7 +147,7 @@ function BBCPolitics() {
 
     <div className="flex flex-row py-8 gap-8">
     <AppSlider className="basis-1/12"/>
-    <p className="pr-32 basis-11/12 text-justify">FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
+    <p className="pr-64 basis-11/12 text-justify">FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
     </div>
 
     <div className="flex flex-row py-8 gap-8">
