@@ -5,6 +5,8 @@ import {Link} from "react-scroll"
 import BBC from "../../Images/BBCImg/BBCPoliticsLogo.PNG";
 import BBCLogo from "../../Images/BBCImg/icons8-bbc-500.png";
 import Stat1 from "../../Images/BBCImg/UntitledDesign1.svg";
+import Stat2 from "../../Images/BBCImg/UntitledDesign2.svg"
+import Stat3 from "../../Images/BBCImg/UntitledDesign3.svg"
 import BBCBrief from "../../Images/BBCImg/BBCBriefPDF.pdf"
 import AffinityDiagram from "../../Images/BBCImg/AffinityDiagram.png"
 import EmpathyMap from "../../Images/BBCImg/EmpathyMap.png"
@@ -92,15 +94,15 @@ function BBCPolitics() {
         <p className="text-center">88% of the demographic hold <br/> a social media account.</p>
         </div>
         <div className="flex flex-col items-center">
-        <img src={Stat1} className=" w-52  h-52  " />
+        <img src={Stat2} className=" w-52  h-52  " />
         <p className="text-center">70% of the demographic spend <br/> most of their digital time on a mobile device.</p>
         </div>
         <div className="flex flex-col items-center">
-        <img src={Stat1} className=" w-52  h-52  " />
+        <img src={Stat2} className=" w-52  h-52  " />
         <p className="text-center">70% of the demographic garnered<br/> information on the 2020 presidential election online.</p>
         </div>
         <div className="flex flex-col items-center">
-        <img src={Stat1} className=" w-52  h-52  " />
+        <img src={Stat3} className=" w-52  h-52  " />
         <p className="text-center">51% of the demographic <br/>use image led social media over alternatives</p>
         </div>
         </div>
