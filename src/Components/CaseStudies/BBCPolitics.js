@@ -8,8 +8,6 @@ import Stat1 from "../../Images/BBCImg/UntitledDesign1.svg";
 import Stat2 from "../../Images/BBCImg/UntitledDesign2.svg"
 import Stat3 from "../../Images/BBCImg/UntitledDesign3.svg"
 import BBCBrief from "../../Images/BBCImg/BBCBriefPDF.pdf"
-import AffinityDiagram from "../../Images/BBCImg/AffinityDiagram.png"
-import EmpathyMap from "../../Images/BBCImg/EmpathyMap.png"
 
 // Component Imports
 import OnboardingSlider from "./BBCPoliticsComponents/OnboardingSlider";
@@ -19,7 +17,7 @@ import DemographicSlider from "./BBCPoliticsComponents/DemographicSlider";
 import Contact from "../Contact"
 import Footer from "../Footer"
 import FigmaEmbed from 'react-figma-embed';
-import { Figma } from "grommet-icons";
+
 
 function BBCPolitics() {
   return(
@@ -90,19 +88,21 @@ function BBCPolitics() {
        
         <div className="flex items-end gap-24 py-8 ">
 
-        <div className = "bg-stat-1" >
-        {/* <img src={Stat1} className="w-52   h-52  " /> */}
-        <p className="text-center font-semibold">88% of the demographic hold <br/> a social media account.</p>
+        <div className = "flex flex-col items-center " >
+        <img src={Stat1} className="w-52  h-52  " /> 
+        
+        <p className="text-center font-semibold ">hold a social media account.</p>
         </div>
 
         <div className="flex flex-col items-center">
         <img src={Stat2} className=" w-52  h-52  " />
-        <p className="text-center font-semibold">70% of the demographic spend <br/> most of their digital time on a mobile device.</p>
+        
+        <p className="text-center font-semibold">spend most of their digital time on a mobile device.</p>
         </div>
 
         <div className="flex flex-col items-center">
         <img src={Stat2} className=" w-52  h-52  " />
-        <p className="text-center font-semibold">70% of the demographic garnered<br/> information on the 2020 presidential election online.</p>
+        <p className="text-center font-semibold">garnered information on the 2020 <br/> presidential election online.</p>
         </div>
 
         <div className="flex flex-col items-center">

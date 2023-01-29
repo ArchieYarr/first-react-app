@@ -35,9 +35,7 @@ module.exports = {
         },
 
 
-      backgroundImage: {
-        'stat-1': "url('./Images/BBCImg/UntitledDesign1.svg')"
-      }
+     
       
 
       
