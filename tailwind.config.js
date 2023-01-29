@@ -34,9 +34,11 @@ module.exports = {
 "bbc": "#861657",
         },
 
-      containertheme:{
-        center: true,
-      },
+
+      backgroundImage: {
+        'stat-1': "url('./Images/BBCImg/UntitledDesign1.svg')"
+      }
+      
 
       
      

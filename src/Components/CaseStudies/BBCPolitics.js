@@ -87,24 +87,29 @@ function BBCPolitics() {
     <h1 className="text-4xl font-bold break-normal">The Demographic</h1>
     <p className="text-justify py-8 pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
         <div className="flex flex-col gap-2">
-          
+       
         <div className="flex items-end gap-24 py-8 ">
-        <div className = "flex flex-col items-center">
-        <img src={Stat1} className="w-52   h-52  " />
-        <p className="text-center">88% of the demographic hold <br/> a social media account.</p>
+
+        <div className = "bg-stat-1" >
+        {/* <img src={Stat1} className="w-52   h-52  " /> */}
+        <p className="text-center font-semibold">88% of the demographic hold <br/> a social media account.</p>
         </div>
+
         <div className="flex flex-col items-center">
         <img src={Stat2} className=" w-52  h-52  " />
-        <p className="text-center">70% of the demographic spend <br/> most of their digital time on a mobile device.</p>
+        <p className="text-center font-semibold">70% of the demographic spend <br/> most of their digital time on a mobile device.</p>
         </div>
+
         <div className="flex flex-col items-center">
         <img src={Stat2} className=" w-52  h-52  " />
-        <p className="text-center">70% of the demographic garnered<br/> information on the 2020 presidential election online.</p>
+        <p className="text-center font-semibold">70% of the demographic garnered<br/> information on the 2020 presidential election online.</p>
         </div>
+
         <div className="flex flex-col items-center">
         <img src={Stat3} className=" w-52  h-52  " />
-        <p className="text-center">51% of the demographic <br/>use image led social media over alternatives</p>
+        <p className="text-center font-semibold">51% of the demographic <br/>use image led social media over alternatives</p>
         </div>
+
         </div>
     
         <div className = " py-8 gap-8">
