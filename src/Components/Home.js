@@ -5,10 +5,9 @@ import About from "./About"
 import Footer from "./Footer"
 import BBCPoliticsCard from "./HomeComponents/BBCPoliticsCard";
 import PortfolioSiteCard from "./HomeComponents/PortfolioSiteCard";
-import { NavLink } from "react-router-dom";
+
 import homeHeader from "../Images/HomeImg/HomeSampleimg1.webp";
-import BBCHeader from "../Images/HomeImg/BBCPolitics.PNG";
-import ThisProject from "../Images/HomeImg/ThisProject.webp";
+
 import {Link} from "react-scroll"
 
 

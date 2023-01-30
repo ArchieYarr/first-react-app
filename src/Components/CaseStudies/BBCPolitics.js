@@ -107,7 +107,7 @@ function BBCPolitics() {
 
         <div className="flex flex-col items-center">
         <img src={Stat3} className=" w-52  h-52  " />
-        <p className="text-center font-semibold">use image led social media over alternatives</p>
+        <p className="text-center font-semibold">use image led social media over alternatives<br/></p>
         </div>
 
         </div>

@@ -1,6 +1,5 @@
 import {React, useState, useEffect} from "react"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
-import bBC from "../../../Images/BBCImg/BBCPoliticsLogo.PNG";
 import onboarding1 from "../../../Images/BBCImg/Onboarding1.PNG"
 import onboarding2 from "../../../Images/BBCImg/Onboarding2.PNG"
 import onboarding3 from "../../../Images/BBCImg/Onboarding3.PNG"
