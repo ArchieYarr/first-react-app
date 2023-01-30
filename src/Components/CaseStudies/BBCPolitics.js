@@ -138,7 +138,7 @@ function BBCPolitics() {
       {/* row 1  */}
       <tr >
         <th>1</th>
-        <td>Politically engaed 18-24 year-old</td>
+        <td>Politically engaged 18-24 year-old</td>
         <td>To find out about headlines without reading text-heavy content.</td>
         <td>The user does not want to get their news through traditional channels <br/>and would prefer the information they consume to be primarily in  video<br/> and audio format.</td>
       </tr>
