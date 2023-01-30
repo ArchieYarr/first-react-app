@@ -122,7 +122,8 @@ function BBCPolitics() {
 
         {/* demographic HMW questions and problem statements */}
         <div className = " h-screen place-content-center "> 
-        <table className="table w-full">
+        <div className="overflow-x-auto">
+        <table className="table table-auto w-full ">
     {/* head */}
     <thead>
       <tr>
@@ -132,38 +133,38 @@ function BBCPolitics() {
         <th>Insight</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody >
       {/* row 1  */}
-      <tr>
+      <tr >
         <th>1</th>
         <td>Politically engaed 18-24 year-old</td>
         <td>To find out about headlines without reading text-heavy content.</td>
-        <td>Blue</td>
+        <td>The user does not want to get their news through traditional channels <br/>and would prefer the information they consume to be primarily in  video<br/> and audio format.</td>
       </tr>
       {/*  row 2 */}
       <tr>
         <th>2</th>
         <td>Politically engaged 18-24-year-old</td>
         <td>To look at different politics related topics in one place with no paywalls or adverstising.</td>
-        <td>Purple</td>
+        <td>This demographic has lower disposable incomes and consumes large <br/>amounts of ad-saturated content. A cost and ad free environment is an<br/> important point for them.</td>
       </tr>
       {/* row 3 */}
       <tr>
         <th>3</th>
         <td>Politically disengaged 18-24-year-old</td>
         <td>To reach a level of understanding about a political topic in the shortest amount of time. </td>
-        <td>Red</td>
+        <td>This user does not want to give large amounts of their time and attention <br/>to politics, they want concise content that summarises an issue.</td>
       </tr>
        {/* row 4 */}
        <tr>
         <th>4</th>
         <td>tech literate 18-24 year old</td>
-        <td>Tax Accountant</td>
-        <td>Red</td>
+        <td>To watch content while doing other tasks, such as web browsing or shopping and to be <br/> able to pick up where they left off.</td>
+        <td>This demographic multitasks and likes to flit from tasks within and <br/> outwith their phones frequently.</td>
       </tr>
     </tbody>
   </table>
-
+  </div>
         <div className="flex lg:flex-row md:flex-col">
         <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ1}></img>
         <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ2}></img>
