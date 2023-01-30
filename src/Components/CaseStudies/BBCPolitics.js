@@ -9,6 +9,8 @@ import Stat2 from "../../Images/BBCImg/UntitledDesign2.svg"
 import Stat3 from "../../Images/BBCImg/UntitledDesign3.svg"
 import BBCBrief from "../../Images/BBCImg/BBCBriefPDF.pdf"
 import hmwQ1 from "../../Images/BBCImg/hmwQ1.png"
+import hmwQ2 from "../../Images/BBCImg/hmwQ2.png"
+import hmwQ3 from "../../Images/BBCImg/hmwQ3.png"
 
 // Component Imports
 import OnboardingSlider from "./BBCPoliticsComponents/OnboardingSlider";
@@ -48,7 +50,7 @@ function BBCPolitics() {
   <div className=" lg:p-32 md:p-8 drop-shadow-2xl" id= "summary">
 
     {/* Specification content */}
-    <div className = "pr-32">
+    <div className = "lg:pr-32">
     
       <div className="flex flex-row py-8">
       
@@ -84,7 +86,7 @@ function BBCPolitics() {
     <div className="py-8 bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
       <div className="lg:p-32">
     <h1 className="text-4xl font-bold break-normal">The Demographic</h1>
-    <p className="text-justify py-8 pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
+    <p className="text-justify py-8 lg:pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
         <div className="flex flex-col gap-2">
        
         <div className="flex items-start gap-40 py-8 ">
@@ -113,11 +115,62 @@ function BBCPolitics() {
 
         </div>
     
-        <div className = " py-8 gap-8">
+        <div className = " py-8 gap-8 lg:pr-32">
           <p className="text-justify pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
         <DemographicSlider />
         <p className="text-justify">After crafting an image of the target demographic I was able to begin to address the problem area and come up with some questions and statements to attempt to solve potential problems the demographic might experience.</p>
-        <img src = {hmwQ1}></img>
+
+        {/* demographic HMW questions and problem statements */}
+        <div className = " h-screen place-content-center "> 
+        <table className="table w-full">
+    {/* head */}
+    <thead>
+      <tr>
+        <th></th>
+        <th>User</th>
+        <th>Need</th>
+        <th>Insight</th>
+      </tr>
+    </thead>
+    <tbody>
+      {/* row 1  */}
+      <tr>
+        <th>1</th>
+        <td>Politically engaed 18-24 year-old</td>
+        <td>To find out about headlines without reading text-heavy content.</td>
+        <td>Blue</td>
+      </tr>
+      {/*  row 2 */}
+      <tr>
+        <th>2</th>
+        <td>Politically engaged 18-24-year-old</td>
+        <td>To look at different politics related topics in one place with no paywalls or adverstising.</td>
+        <td>Purple</td>
+      </tr>
+      {/* row 3 */}
+      <tr>
+        <th>3</th>
+        <td>Politically disengaged 18-24-year-old</td>
+        <td>To reach a level of understanding about a political topic in the shortest amount of time. </td>
+        <td>Red</td>
+      </tr>
+       {/* row 4 */}
+       <tr>
+        <th>4</th>
+        <td>tech literate 18-24 year old</td>
+        <td>Tax Accountant</td>
+        <td>Red</td>
+      </tr>
+    </tbody>
+  </table>
+
+        <div className="flex lg:flex-row md:flex-col">
+        <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ1}></img>
+        <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ2}></img>
+        </div>
+        
+
+        </div>
         </div>
         </div>
         </div>
@@ -128,7 +181,7 @@ function BBCPolitics() {
     {/* Competitor Content */}
     <div className="lg:p-32">
     
-    <div className = "flex flex-row justify-end pr-32 py-8 gap-8">
+    <div className = "flex flex-row justify-end lg:pr-32 py-8 gap-8">
     <img src={BBC} className=" lg:max-w-screen rounded-lg h-min shadow-2xl " />
       <div className="flex flex-col gap-8"> 
       <h1 className="text-4xl font-bold break-normal">Competitors</h1>
