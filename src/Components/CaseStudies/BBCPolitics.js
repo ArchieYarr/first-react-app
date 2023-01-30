@@ -121,9 +121,10 @@ function BBCPolitics() {
         <p className="text-justify">After crafting an image of the target demographic I was able to begin to address the problem area and come up with some questions and statements to attempt to solve potential problems the demographic might experience.</p>
 
         {/* demographic HMW questions and problem statements */}
-        <div className = " h-screen place-content-center "> 
-        <div className="overflow-x-auto">
-        <table className="table table-auto w-full ">
+        <div > 
+        <div className="overflow-x-auto lg:overflow-x-hidden">
+          
+          <table className="table table-auto w-full ">
     {/* head */}
     <thead>
       <tr>
@@ -145,14 +146,14 @@ function BBCPolitics() {
       <tr>
         <th>2</th>
         <td>Politically engaged 18-24-year-old</td>
-        <td>To look at different politics related topics in one place with no paywalls or adverstising.</td>
+        <td>To look at different politics related topics in one place with no <br/>paywalls or adverstising.</td>
         <td>This demographic has lower disposable incomes and consumes large <br/>amounts of ad-saturated content. A cost and ad free environment is an<br/> important point for them.</td>
       </tr>
       {/* row 3 */}
       <tr>
         <th>3</th>
         <td>Politically disengaged 18-24-year-old</td>
-        <td>To reach a level of understanding about a political topic in the shortest amount of time. </td>
+        <td>To reach a level of understanding about a political topic in the<br/> shortest amount of time. </td>
         <td>This user does not want to give large amounts of their time and attention <br/>to politics, they want concise content that summarises an issue.</td>
       </tr>
        {/* row 4 */}
@@ -163,14 +164,13 @@ function BBCPolitics() {
         <td>This demographic multitasks and likes to flit from tasks within and <br/> outwith their phones frequently.</td>
       </tr>
     </tbody>
-  </table>
-  </div>
-        <div className="flex lg:flex-row md:flex-col">
-        <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ1}></img>
-        <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ2}></img>
-        </div>
+          </table>
+          </div>
+          <div className="flex lg:flex-row md:flex-col">
+          <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ1}></img>
+          <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ2}></img>
+          </div>
         
-
         </div>
         </div>
         </div>
@@ -180,9 +180,9 @@ function BBCPolitics() {
     {/* Demographic Content */}
 
     {/* Competitor Content */}
-    <div className="lg:p-32">
+    <div className="lg:px-32">
     
-    <div className = "flex flex-row justify-end lg:pr-32 py-8 gap-8">
+    <div className = "flex flex-row justify-end lg:pr-32 pb-8 gap-8">
     <img src={BBC} className=" lg:max-w-screen rounded-lg h-min shadow-2xl " />
       <div className="flex flex-col gap-8"> 
       <h1 className="text-4xl font-bold break-normal">Competitors</h1>
