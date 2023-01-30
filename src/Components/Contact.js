@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom/client";
+
 import React from "react";
 import linkedin from "../Images/ContactImg/icons8-linkedin.svg";
 import git from "../Images/ContactImg/icons8-github.svg";

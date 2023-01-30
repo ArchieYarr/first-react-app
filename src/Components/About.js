@@ -1,7 +1,6 @@
-import ReactDOM from "react-dom/client";
+
 import React from "react";
 import CVImg from "../Images/AboutImg/Archie Yarr CV.png";
-import CVSvg from "../Images/AboutImg/Archie Yarr CV For website.svg";
 import CV from "../Images/HomeImg/Archie Yarr CV.pdf";
 
 function About() {
