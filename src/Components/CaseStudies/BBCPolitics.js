@@ -191,7 +191,8 @@ function BBCPolitics() {
     {/* Competitor Content */}
     <div className="lg:px-32">
     
-    <div className = "justify-center flex flex-row  lg:pr-64 pb-8 gap-8 w-screen h-32">
+    <div className = "flex flex-row pb-8 gap-8 w-screen h-32">
+    <img src ={tiktok} className=""></img>
       <img src ={appleNews} className=""></img>
       <img src={facebook} className=""></img>
       <img src ={netflix} className=""></img>
