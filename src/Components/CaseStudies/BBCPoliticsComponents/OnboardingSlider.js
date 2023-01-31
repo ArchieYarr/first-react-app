@@ -1,10 +1,10 @@
 import {React, useState, useEffect} from "react"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
-import onboarding1 from "../../../Images/BBCImg/onboardingSlider/Resized onboarding pg1.png"
-import onboarding2 from "../../../Images/BBCImg/onboardingSlider/Resized onboarding pg2.png"
-import onboarding3 from "../../../Images/BBCImg/onboardingSlider/Resized onboarding pg3.png"
-import onboarding4 from "../../../Images/BBCImg/onboardingSlider/Resized onboarding pg4.png"
-import onboarding5 from "../../../Images/BBCImg/onboardingSlider/Resized onboarding pg5.png"
+import onboarding1 from "../../../Images/BBCImg/onboardingSlider/resizedOnboardinPg1.png"
+import onboarding2 from "../../../Images/BBCImg/onboardingSlider/resizedOnboardinPg2.png"
+import onboarding3 from "../../../Images/BBCImg/onboardingSlider/resizedOnboardinPg3.png"
+import onboarding4 from "../../../Images/BBCImg/onboardingSlider/resizedOnboardinPg4.png"
+import onboarding5 from "../../../Images/BBCImg/onboardingSlider/resizedOnboardinPg5.png"
 
 
 function OnboardingSlider(){
