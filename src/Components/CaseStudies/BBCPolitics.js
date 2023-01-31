@@ -12,8 +12,13 @@ import hmwQ1 from "../../Images/BBCImg/hmwQ1.png"
 import hmwQ2 from "../../Images/BBCImg/hmwQ2.png"
 import appleNews from "../../Images/BBCImg/competitorImg/apple news.png"
 import facebook from "../../Images/BBCImg/competitorImg/facebook logo.png"
-import instagram from "../../Images/BBCImg/competitorImg/instagram logo.png"
 import tiktok from "../../Images/BBCImg/competitorImg/TikTok logo.png"
+import itv from "../../Images/BBCImg/competitorImg/icons8-itv-hub.svg"
+import netflix from "../../Images/BBCImg/competitorImg/netlfix.png"
+import prime from "../../Images/BBCImg/competitorImg/icons8-amazon-prime-video.svg"
+import sky from "../../Images/BBCImg/competitorImg/Sky-News-Logo.png"
+import snapchat from "../../Images/BBCImg/competitorImg/icons8-snapchat.svg"
+import spotify from "../../Images/BBCImg/competitorImg/icons8-spotify.svg"
 
 
 // Component Imports
@@ -186,10 +191,16 @@ function BBCPolitics() {
     {/* Competitor Content */}
     <div className="lg:px-32">
     
-    <div className = "flex flex-row lg:pr-32 pb-8 gap-8 w-96 h-32">
-      <img src ={appleNews} className="w-min h-min"></img>
-      <img src={facebook} className="w-min h-min"></img>
-      <img src ={tiktok} className="w-min h-min"></img>
+    <div className = "justify-center flex flex-row  lg:pr-64 pb-8 gap-8 w-screen h-32">
+      <img src ={appleNews} className=""></img>
+      <img src={facebook} className=""></img>
+      <img src ={netflix} className=""></img>
+      <img src ={prime} className=""></img>
+      <img src ={itv} className=""></img>
+      <img src ={sky} className=""></img> 
+      <img src ={snapchat} className=""></img>
+      <img src ={spotify} className=""></img>
+
     </div>
       <div className="flex flex-col gap-8"> 
       <h1 className="text-4xl font-bold break-normal">Competitors</h1>
