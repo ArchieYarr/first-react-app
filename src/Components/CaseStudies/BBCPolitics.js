@@ -10,7 +10,11 @@ import Stat3 from "../../Images/BBCImg/UntitledDesign3.svg"
 import BBCBrief from "../../Images/BBCImg/BBCBriefPDF.pdf"
 import hmwQ1 from "../../Images/BBCImg/hmwQ1.png"
 import hmwQ2 from "../../Images/BBCImg/hmwQ2.png"
-import hmwQ3 from "../../Images/BBCImg/hmwQ3.png"
+import appleNews from "../../Images/BBCImg/competitorImg/apple news.png"
+import facebook from "../../Images/BBCImg/competitorImg/facebook logo.png"
+import instagram from "../../Images/BBCImg/competitorImg/instagram logo.png"
+import tiktok from "../../Images/BBCImg/competitorImg/TikTok logo.png"
+
 
 // Component Imports
 import OnboardingSlider from "./BBCPoliticsComponents/OnboardingSlider";
@@ -182,13 +186,16 @@ function BBCPolitics() {
     {/* Competitor Content */}
     <div className="lg:px-32">
     
-    <div className = "flex flex-row justify-end lg:pr-32 pb-8 gap-8">
-    <img src={BBC} className=" lg:max-w-screen rounded-lg h-min shadow-2xl " />
+    <div className = "flex flex-row lg:pr-32 pb-8 gap-8 w-96 h-32">
+      <img src ={appleNews} className="w-min h-min"></img>
+      <img src={facebook} className="w-min h-min"></img>
+      <img src ={tiktok} className="w-min h-min"></img>
+    </div>
       <div className="flex flex-col gap-8"> 
       <h1 className="text-4xl font-bold break-normal">Competitors</h1>
           <p className="text-justify">FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
           </div>
-        </div>
+        
       
     </div>
     
