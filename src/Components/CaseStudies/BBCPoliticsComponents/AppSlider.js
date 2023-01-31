@@ -1,8 +1,8 @@
 import {React, useState, useEffect} from "react"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
-import home1 from "../../../Images/BBCImg/Home1.PNG"
-import home2 from "../../../Images/BBCImg/Home2.PNG"
-import home3 from "../../../Images/BBCImg/Home3.PNG"
+import home1 from "../../../Images/BBCImg/appSlider/homePage.png"
+import home2 from "../../../Images/BBCImg/appSlider/verticalVideo.png"
+import home3 from "../../../Images/BBCImg/appSlider/verticalVideoTapped.png"
 
 
 function AppSlider(){
@@ -18,6 +18,7 @@ function AppSlider(){
         {
             url:home3
         },
+        
 
     ];
 
@@ -64,7 +65,7 @@ function AppSlider(){
 
     return(
 
-        <div className = "h-[52rem] w-[32rem]  m-auto relative group">
+        <div className = "h-[57.875rem] w-[26.75rem]  m-auto relative group">
 
             <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-r-2xl bg-center bg-contain duration-500"></div>
             {/* left Arrow */}
