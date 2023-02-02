@@ -52,7 +52,8 @@ module.exports = {
   theme: {
     extend: {animation: {
       fadeIn: "fadeIn 2s ease-in forwards",
-      fadeInLeft:"fadeInLeft 2s ease-out"
+      fadeInLeft:"fadeInLeft 2s ease-out",
+      fadeInRight: "fadeInRight 2s ease-out"
     },
     keyframes: {
       fadeIn: {
@@ -67,10 +68,18 @@ module.exports = {
         opacity:1,
         transform: "translateX(0)"
       }
-      
-      
+    },
 
+    fadeInRight:{
+      "0%":{opacity: 0,
+            transform: "translateX(40px)"
+      },
+      "100%":{
+        opacity:1,
+        transform: "translateX(0)"
+      }
     }
+    
     
     }},
     

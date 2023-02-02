@@ -221,12 +221,12 @@ function BBCPolitics() {
     
     <h1 className="text-4xl font-bold break-normal py-8 px-32">Proposed Solution</h1>
     
-    <div className = "flex gap-8  py-8">
+    <div className = "flex gap-8 p-8 py-8">
       
    
   <p className="pl-32 text-justify">FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller</p>
  
-    <div className="mockup-phone self-center flex-shrink-0">
+    <div className="mockup-phone self-center flex-shrink-0  motion-safe:animate-fadeInRight">
   <div className="camera"></div> 
   <div className="display">
     <OnboardingSlider className="artboard artboard-demo phone-1">Hi.</OnboardingSlider>
@@ -234,10 +234,10 @@ function BBCPolitics() {
     </div>
     </div>
 
-    <div className="flex flex-row py-8 gap-8">
+    <div className="flex flex-row p-8 gap-8">
      
   
-    <div className="mockup-phone self-center flex-shrink-0">
+    <div className="mockup-phone self-center flex-shrink-0 motion-safe:animate-fadeInLeft">
   <div className="camera"></div> 
   <div className="display">
     <AppSlider className="artboard artboard-demo phone-1">Hi.</AppSlider>
@@ -247,9 +247,9 @@ function BBCPolitics() {
     <p className="pr-64  text-justify">FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
     </div>
 
-    <div className="flex flex-row py-8 gap-8">
+    <div className="flex flex-row p-8 gap-8 ">
     <p className="pl-32  text-justify">FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
-    <div className="mockup-phone self-center flex-shrink-0">
+    <div className="mockup-phone self-center flex-shrink-0 motion-safe:animate-fadeInRight">
   <div className="camera"></div> 
   <div className="display">
     <LiveSlider className="artboard artboard-demo phone-1">Hi.</LiveSlider>
