@@ -34,7 +34,7 @@ import FigmaEmbed from 'react-figma-embed';
 function BBCPolitics() {
   return(
   
-    <div className="overflow-x-hidden">
+    <div className="lg:overflow-x-hidden">
   {/* -----------Title Hero----------- */}
     <div className="hero min-h-screen bg-base-100" >
   
@@ -95,30 +95,30 @@ function BBCPolitics() {
     <div className="p-8 bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
       <div className="lg:p-32">
     <h1 className="text-4xl font-bold break-normal">The Demographic</h1>
-    <p className="text-justify p-8 lg:pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
-        <div className="flex flex-col gap-2">
+    <p className="text-justify py-8 lg:pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
+        <div className="flex flex-col gap-8">
        
-        <div className="flex items-start gap-40 py-8 ">
+        <div className="flex flex-row flex-wrap mx-auto py-8 gap-8 ">
 
-        <div className = "flex flex-col items-center " >
-        <img src={Stat1} className="w-52  h-52 flex-shrink-0 " /> 
+        <div className = "flex flex-col gap-4 items-center  md:w-1/4 " >
+        <img src={Stat1} className=" " /> 
         
         <p className="text-center font-semibold ">hold a social media account.<br/></p>
         </div>
 
-        <div className="flex flex-col items-center">
-        <img src={Stat2} className=" w-52  h-52  flex-shrink-0" />
+        <div className="flex flex-col gap-4 items-center md:w-1/4">
+        <img src={Stat2} className=" " />
         
         <p className="text-center font-semibold">spend most of their digital time <br/> on a mobile device.</p>
         </div>
 
-        <div className="flex flex-col items-center">
-        <img src={Stat2} className=" w-52  h-52  flex-shrink-0" />
+        <div className="flex flex-col gap-4 items-center md:w-1/4">
+        <img src={Stat2} className="" />
         <p className="text-center font-semibold">garnered information on the 2020 <br/> presidential election online.</p>
         </div>
 
-        <div className="flex flex-col items-center">
-        <img src={Stat3} className=" w-52  h-52 flex-shrink-0 " />
+        <div className="flex flex-col gap-4 items-center md:w-1/4">
+        <img src={Stat3} className=" " />
         <p className="text-center font-semibold">use image led social media over alternatives<br/></p>
         </div>
 
