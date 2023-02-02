@@ -61,9 +61,9 @@ function DemographicSlider(){
 
     return(
 
-        <div className = "w-[85rem] h-screen m-auto relative group">
+        <div className = "lg:h-screen lg:w-screen m-auto overflow-hidden relative group">
 
-            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-r-2xl bg-center bg-contain duration-500"></div>
+            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-r-2xl bg-no-repeat bg-center bg-contain duration-500"></div>
             {/* left Arrow */}
             <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 -translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                 <BsChevronCompactLeft onClick = {prevSlide} size={30} />
