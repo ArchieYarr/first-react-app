@@ -1,8 +1,8 @@
 import {React, useState, useEffect} from "react"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
-import onboarding1 from "../../../Images/BBCImg/Onboarding1.PNG"
-import onboarding2 from "../../../Images/BBCImg/Onboarding2.PNG"
-import onboarding3 from "../../../Images/BBCImg/Onboarding3.PNG"
+import live1 from "../../../Images/BBCImg/liveSlider/LiveSliderImg1.png"
+import live2 from "../../../Images/BBCImg/liveSlider/LiveSliderImg1.png"
+import live3 from "../../../Images/BBCImg/liveSlider/LiveSliderImg1.png"
 
 
 function LiveSlider(){
@@ -10,13 +10,13 @@ function LiveSlider(){
     const slides = [
         
         {
-            url:onboarding1
+            url:live1
         },
         {
-            url:onboarding2
+            url:live2
         },
         {
-            url:onboarding3
+            url:live3
         },
 
     ];
@@ -64,9 +64,9 @@ function LiveSlider(){
 
     return(
 
-        <div className = "h-[52rem] w-[32rem]  m-auto relative group pr-px">
+        <div className = "h-[57.875rem] w-[26.75rem]  m-auto relative group pr-px">
 
-            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-l-2xl bg-center bg-cover duration-500"></div>
+            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-l-2xl bg-center bg-contain duration-500"></div>
             {/* left Arrow */}
             <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 -translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                 <BsChevronCompactLeft onClick = {prevSlide} size={30} />
