@@ -20,7 +20,7 @@ function Home() {
     <div className="flex flex-col bg-base-100 gap-10 " id = "home">
 
 
-  <div className="flex lg:flex-col items-center min-h-fit bg-base-100  ">
+  <div className="flex flex-col items-center min-h-fit bg-base-100 md:px-8  ">
     
       <div className="pt-24">
         <div className="flex flex-row flex-shrink-0">
