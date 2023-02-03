@@ -2,9 +2,6 @@ import React from "react";
 import { Routes, Route } from 'react-router-dom';
 import NavBar from "./Components/NavBar";
 import Home from "./Components/Home"
-import Contact from "./Components/Contact"
-import About from "./Components/About"
-import Footer from "./Components/Footer"
 import BBCPolitics from "./Components/CaseStudies/BBCPolitics";
 import PortfolioSite from "./Components/CaseStudies/PortfolioSite"
 
