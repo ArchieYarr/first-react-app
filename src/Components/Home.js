@@ -31,14 +31,14 @@ function Home() {
   </div>
 </div>
 
-      <div className ="mt-8 grid-cols-1 grid-flow-col gap-10 lg:px-80 lg:pt-52 lg:pb-52" id ="Study1" >
+      <div className ="flex flex-col gap-24 lg:px-80  lg:py-24 lg:pb-8" id ="Study1" >
 
       <BBCPoliticsCard />
       <PortfolioSiteCard />
 
     </div>
 
-    <div className="lg:pb-96">
+    <div className="bg-base-100 shadow-xl py-16">
       <About />
       </div>
 

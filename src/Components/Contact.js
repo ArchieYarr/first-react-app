@@ -5,7 +5,7 @@ import git from "../Images/ContactImg/icons8-github.svg";
 
 function Contact() {
 return(
-  <div className="bg-base-200 text-center py-52 " id = "contact">
+  <div className="bg-base-200 text-center " id = "contact">
   
     
       <h1 className="text-5xl  font-bold">archieyarr@outlook.com</h1>
