@@ -124,11 +124,11 @@ function BBCPolitics() {
 
         </div>
     
-        <div className = " py-8 gap-8 lg:pr-32">
+        
           <p className="text-justify pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
         <DemographicSlider />
         <p className="text-justify">After crafting an image of the target demographic I was able to begin to address the problem area and come up with some questions and statements to attempt to solve potential problems the demographic might experience.</p>
-
+        <div className = " py-8 gap-8 lg:pr-32">
         {/* demographic HMW questions and problem statements */}
         <div > 
         <div className="overflow-x-auto lg:overflow-x-hidden">
