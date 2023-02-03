@@ -30,7 +30,7 @@ function Home() {
       <p className="py-6">I'm a Computing Science graduate and aspiring UX designer. Have a look at some of my work and learn a bit about me, feel free to get in touch too!</p>
       </div>
 
-      <div className ="flex lg:flex-row md:flex-col gap-24 lg:px-80 lg:pb-52"  >
+      <div className ="flex lg:flex-row sm:flex-col gap-24 lg:px-80 lg:pb-52"  >
 
       <BBCPoliticsCard />
       <PortfolioSiteCard />

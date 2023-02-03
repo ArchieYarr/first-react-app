@@ -5,7 +5,7 @@ import BBCHeader from "../../Images/HomeImg/BBCPolitics.PNG";
 function BBCPoliticsCard() {
   return (
     <div className = "card lg:card-side bg-base-100  shadow-xl h-auto w-auto m-8" >
-        <figure className = "lg:w-full lg:h-64"><img src={BBCHeader} alt="BBC Politics"  ></img></figure>
+        <figure className = "w-full h-64 md:w-full md:h-[18.5rem]"><img src={BBCHeader} alt="BBC Politics"  ></img></figure>
       <div className="card-body">
       <div className ="card-actions justify-start">
               <div className="badge badge-outline">Research </div>
