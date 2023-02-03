@@ -6,9 +6,9 @@ import Footer from "./Footer"
 import BBCPoliticsCard from "./HomeComponents/BBCPoliticsCard";
 import PortfolioSiteCard from "./HomeComponents/PortfolioSiteCard";
 
-import homeHeader from "../Images/HomeImg/HomeSampleimg1.webp";
+import wave from "../Images/HomeImg/icons8-so-so-48.png";
 
-import {Link} from "react-scroll"
+
 
 
 
@@ -16,37 +16,41 @@ function Home() {
   
   return (
     
-    //Grid Containing the Home Page Content
-    // div 1 = Heading Image, second nested grid contains the case study cards 
-    <div className="flex flex-col  gap-10 " id = "home">
+    
+    <div className="flex flex-col bg-base-100 gap-10 " id = "home">
 
-<div className="hero min-h-screen bg-base-100 shadow-2x1 ">
-  <div className="hero-content flex-col lg:flex-row">
-  <img className=" max-w-sm rounded-lg shadow-2xl" src={homeHeader}/> 
-    <div>
+
+  <div className="flex lg:flex-col items-center min-h-fit bg-base-100  ">
+    
+      <div className="pt-24">
+        <div className="flex flex-row flex-shrink-0">
+        <img className = ""src = {wave}></img><a target="_blank" rel="noreferrer" href="https://icons8.com"></a>
       <h1 className="text-5xl font-bold">Hi I'm Archie! </h1>
+      </div>
       <p className="py-6">I'm a Computing Science graduate and aspiring UX designer. Have a look at some of my work and learn a bit about me, feel free to get in touch too!</p>
-      <Link to = 'Study1' spy={true} smooth={true} offset={50} duration={500}><button className="btn btn-primary">Check out my work!</button></Link>
-    </div>
-  </div>
-</div>
+      </div>
 
-      <div className ="flex flex-col gap-24 lg:px-80  lg:py-24 lg:pb-8" id ="Study1" >
+      <div className ="flex lg:flex-row md:flex-col gap-24 lg:px-80 lg:pb-8"  >
 
       <BBCPoliticsCard />
       <PortfolioSiteCard />
 
     </div>
+    
+  </div>
 
-    <div className="bg-base-100 shadow-xl py-16">
+
+      
+
+    <div className="bg-base-200 shadow-xl py-16">
       <About />
       </div>
 
-      
+      <div className="py-24 ">
       <Contact />
-    
+     
       <Footer />
-    
+      </div>
     </div>
   );
 }
