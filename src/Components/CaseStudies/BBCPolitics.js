@@ -169,7 +169,7 @@ function BBCPolitics() {
        <tr>
         <th>4</th>
         <td>tech literate 18-24 year old</td>
-        <td>To watch content while doing other tasks, such as web browsing or shopping and to be <br/> able to pick up where they left off.</td>
+        <td>To watch content while doing other tasks, such as web <br/> browsing or shopping and to be  able to pick up where they left off.</td>
         <td>This demographic multitasks and likes to flit from tasks within and <br/> outwith their phones frequently.</td>
       </tr>
     </tbody>
