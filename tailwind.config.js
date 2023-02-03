@@ -55,6 +55,7 @@ module.exports = {
       fadeInLeft:"fadeInLeft 2s ease-out",
       fadeInRight: "fadeInRight 2s ease-out",
       wave: "wave 1.5s infinite",
+      slideInBottom: "slideInBottom 2s ease-out",
     },
     keyframes: {
       fadeIn: {
@@ -79,6 +80,16 @@ module.exports = {
         opacity:1,
         transform: "translateX(0)"
       }
+    },
+
+    slideInBottom:{
+      "0%":{opacity: 0,
+        transform: "translateX(40px)"
+        },
+        "100%":{opacity:1,
+          transform: "translateX(0)"
+  }
+
     },
 
     wave:{
