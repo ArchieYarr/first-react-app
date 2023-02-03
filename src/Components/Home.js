@@ -6,7 +6,7 @@ import Footer from "./Footer"
 import BBCPoliticsCard from "./HomeComponents/BBCPoliticsCard";
 import PortfolioSiteCard from "./HomeComponents/PortfolioSiteCard";
 
-import wave from "../Images/HomeImg/icons8-so-so-48.png";
+import wave from "../Images/HomeImg/icons8-so-so-100.png";
 
 
 

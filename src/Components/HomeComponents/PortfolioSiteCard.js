@@ -5,8 +5,8 @@ import ThisProject from "../../Images/HomeImg/ThisProject.webp";
 function PortfolioSiteCard() {
   return ( 
 
-    <div className = "card lg:card-side bg-base-100  shadow-xl h-auto w-auto m-8">
-        <figure className = "lg:w-6/12 lg:h-64  "><img src={ThisProject} alt="filler"  ></img></figure>
+    <div className = " card lg:card-side bg-base-100  shadow-xl h-auto w-auto m-8">
+        <figure className = "lg:w-full lg:h-64  "><img src={ThisProject} alt="filler"  ></img></figure>
       <div className="card-body">
       <div className ="card-actions justify-start">
               <div className="badge badge-outline">Development </div>
@@ -18,7 +18,7 @@ function PortfolioSiteCard() {
       
       
             <div>
-            <Link className="btn btn-primary" onClick={() => window.location.href = "/CaseStudies/PortfolioSite"} >Open Case Study</Link>
+            <Link className="btn btn-primary"  >Coming Soon</Link>
             </div>
             </div>
       </div>
