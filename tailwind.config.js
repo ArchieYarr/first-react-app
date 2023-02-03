@@ -32,16 +32,7 @@ module.exports = {
 "error": "#F87272",
 
 "bbc": "#861657",
-        },
-
-
-     
-      
-
-      
-     
-      
-     
+        },     
 
       },
     ],
@@ -55,7 +46,7 @@ module.exports = {
       fadeInLeft:"fadeInLeft 2s ease-out",
       fadeInRight: "fadeInRight 2s ease-out",
       wave: "wave 1.5s infinite",
-      slideInBottom: "slideInBottom 2s ease-out",
+      fadeInBottom: "fadeInBottom 2s ease-out",
     },
     keyframes: {
       fadeIn: {
@@ -82,12 +73,12 @@ module.exports = {
       }
     },
 
-    slideInBottom:{
-      "0%":{opacity: 0,
-        transform: "translateX(40px)"
+    fadeInBottom:{
+      "0%":{
+        transform: "translateY(120px)"
         },
-        "100%":{opacity:1,
-          transform: "translateX(0)"
+        "100%":{
+          transform: "translateY(0)"
   }
 
     },
