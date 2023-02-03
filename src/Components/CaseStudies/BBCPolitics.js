@@ -84,7 +84,7 @@ function BBCPolitics() {
         
 
       </p>
-      <a href = {BBCBrief} target ="blank" className="btn btn-primary">Full Specification</a>
+      <a href = {BBCBrief} rel="noreferrer" target ="blank" className="btn btn-primary">Full Specification</a>
       </div>
       </div>
       

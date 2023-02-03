@@ -16,7 +16,7 @@ function About() {
           <div>
           <h1 className="text-5xl font-bold break-normal">Computing graduate from St Andrews, Scotland. Currently based in Glasgow.</h1>
           <p className="py-6 ">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi. Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          <a href = {CV} target ="blank" className="btn btn-primary">Check out my CV</a>
+          <a href = {CV} rel="noreferrer" target ="blank" className="btn btn-primary">Check out my CV</a>
         </div>
       </div>
       
