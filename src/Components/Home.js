@@ -24,7 +24,7 @@ function Home() {
     
       <div className="pt-24">
         <div className="flex flex-row flex-shrink-0">
-        <img className = ""src = {wave}></img><a target="_blank" rel="noreferrer" href="https://icons8.com"></a>
+        <img className = "motion-safe:animate-wave"src = {wave}></img><a target="_blank" rel="noreferrer" href="https://icons8.com"></a>
       <h1 className="text-5xl font-bold">Hi I'm Archie! </h1>
       </div>
       <p className="py-6">I'm a Computing Science graduate and aspiring UX designer. Have a look at some of my work and learn a bit about me, feel free to get in touch too!</p>

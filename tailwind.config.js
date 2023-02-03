@@ -53,7 +53,8 @@ module.exports = {
     extend: {animation: {
       fadeIn: "fadeIn 2s ease-in forwards",
       fadeInLeft:"fadeInLeft 2s ease-out",
-      fadeInRight: "fadeInRight 2s ease-out"
+      fadeInRight: "fadeInRight 2s ease-out",
+      wave: "wave 1.5s infinite",
     },
     keyframes: {
       fadeIn: {
@@ -78,6 +79,17 @@ module.exports = {
         opacity:1,
         transform: "translateX(0)"
       }
+    },
+
+    wave:{
+        "0%":{transform: "rotate(0.0deg)"},
+        "15%":{transform: "rotate(14.0deg)"},
+        "30%":{transform: "rotate(-8.0deg)"},
+        "40%":{transform: "rotate(14.0deg)"},
+        "50%":{transform: "rotate(-4.0deg)"},
+        "60%":{transform: "rotate(10.0deg)"},
+        "70%":{transform: "rotate(0.0deg)"},
+        "100%":{transform: "rotate(0.0deg)"},
     }
     
     
