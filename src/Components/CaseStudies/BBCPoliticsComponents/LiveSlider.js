@@ -1,8 +1,8 @@
 import {React, useState, useEffect} from "react"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
 import live1 from "../../../Images/BBCImg/liveSlider/LiveSliderImg1.png"
-import live2 from "../../../Images/BBCImg/liveSlider/LiveSliderImg1.png"
-import live3 from "../../../Images/BBCImg/liveSlider/LiveSliderImg1.png"
+import live2 from "../../../Images/BBCImg/liveSlider/LiveSliderImg2.png"
+import live3 from "../../../Images/BBCImg/liveSlider/LiveSliderImg3.png"
 
 
 function LiveSlider(){

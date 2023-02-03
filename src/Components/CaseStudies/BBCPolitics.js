@@ -98,27 +98,27 @@ function BBCPolitics() {
     <p className="text-justify py-8 lg:pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
         <div className="flex flex-col gap-8">
        
-        <div className="flex flex-row flex-wrap mx-auto py-8 gap-8 ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 pr-32 gap-8">
 
-        <div className = "flex flex-col gap-4 items-center  md:w-1/4 " >
-        <img src={Stat1} className=" " /> 
+        <div className = " flex flex-col items-center" >
+        <img src={Stat1} className=" h-56 w-56" /> 
         
         <p className="text-center font-semibold ">hold a social media account.<br/></p>
         </div>
 
-        <div className="flex flex-col gap-4 items-center md:w-1/4">
-        <img src={Stat2} className=" " />
+        <div className="flex flex-col items-center">
+        <img src={Stat2} className="h-56 w-56 " />
         
         <p className="text-center font-semibold">spend most of their digital time <br/> on a mobile device.</p>
         </div>
 
-        <div className="flex flex-col gap-4 items-center md:w-1/4">
-        <img src={Stat2} className="" />
+        <div className="flex flex-col items-center">
+        <img src={Stat2} className="h-56 w-56" />
         <p className="text-center font-semibold">garnered information on the 2020 <br/> presidential election online.</p>
         </div>
 
-        <div className="flex flex-col gap-4 items-center md:w-1/4">
-        <img src={Stat3} className=" " />
+        <div className="flex flex-col items-center">
+        <img src={Stat3} className="h-56 w-56 " />
         <p className="text-center font-semibold">use image led social media over alternatives<br/></p>
         </div>
 
