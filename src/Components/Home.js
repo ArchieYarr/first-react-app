@@ -27,10 +27,10 @@ function Home() {
         <img className = "motion-safe:animate-wave"src = {wave}></img><a target="_blank" rel="noreferrer" href="https://icons8.com"></a>
       <h1 className="text-5xl font-bold">Hi I'm Archie! </h1>
       </div>
-      <p className="py-6">I'm a Computing Science graduate and aspiring UX designer. Have a look at some of my work and learn a bit about me, feel free to get in touch too!</p>
+      <p className="px-8 py-6 text-justify">I'm a Computing Science graduate and aspiring UX designer. Have a look at some of my work and learn a bit about me, feel free to get in touch too!</p>
       </div>
 
-      <div className ="flex lg:flex-row sm:flex-col lg:gap-24 lg:px-80 lg:pb-52"  >
+      <div className ="flex lg:flex-row sm:flex-col lg:gap-24 lg:px-80 lg:pb-52 "  >
 
       <BBCPoliticsCard />
       <PortfolioSiteCard />
@@ -42,11 +42,11 @@ function Home() {
 
       
 
-    <div className="bg-base-200 shadow-xl py-16">
+    <div className="bg-base-200 shadow-xl pb-40 md:pb-0 md:py-16">
       <About />
       </div>
 
-      <div className="py-24 ">
+      <div className="md:py-24 ">
       <Contact />
      
       <Footer />
