@@ -42,7 +42,7 @@ function Home() {
 
       
 
-    <div className=" ">
+    <div className="md:pt-16 ">
       <About />
       </div>
 
