@@ -38,12 +38,12 @@ function BBCPolitics() {
   {/* -----------Title Hero----------- */}
     <div className="md:hero md:min-h-screen bg-base-100" >
   
-  <div className="md:hero-content  text-start text-neutral-content motion-safe:animate-fadeIn">
+  <div className="md:hero-content px-2 py-4 md:px-0 md:py-0 text-start text-neutral-content motion-safe:animate-fadeIn">
   <img src={BBC} className="max-w-sm rounded-lg shadow-2xl" />
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">BBC Politics</h1>
-      <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <div className ="flex p-2">
+      <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">BBC Politics</h1>
+      <p className="mb-5 text-justify">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <div className ="">
       <Link to = 'summary' spy={true} smooth={true} offset={50} duration={500}><button className="btn btn-primary">Get Started</button></Link>
       </div>
     </div>
@@ -70,7 +70,7 @@ function BBCPolitics() {
       <h1 className="text-4xl font-bold break-normal">The Specification</h1>
       <p className="text-justify">The BBC is the world's most recognized creative organisation and the state broadcaster in the United Kingdom for over 100 years. They broadcast and produce a variety of content. From drama, comedy, sports and news they broadcast across TV, digital and web platforms. The BBC User Experience and Design (UX&D) department shapes the user experience across the BBC's digital product suite. It is made up of UX designers, architects and researchers who collaborate across the organisation to create excellent digital experiences. As part of a UX module I studied in my final year of University the team set us a specification to create a new digital product to add to the suite, aimed at 18-24-year-olds.  </p>
       <h2 className="text-2xl font-bold break-normal">Project Background</h2>
-      <p>Due to a drop in interest amongst younger audiences across their services, the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore, trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:
+      <p className="text-justify ">Due to a drop in interest amongst younger audiences across their services, the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore, trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:
        <ul className="pl-8 py-2 list-disc">
         <li>Politics</li>
         <li>Climate</li>
@@ -96,27 +96,27 @@ function BBCPolitics() {
     <p className="text-justify py-8 lg:pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
         <div className="flex flex-col gap-8">
        
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 pr-32 gap-8">
+        <div className="grid lg:grid-cols-4 grid-cols-2 md:pr-32 gap-8">
 
         <div className = " flex flex-col items-center" >
-        <img src={Stat1} className=" h-56 w-56" /> 
+        <img src={Stat1} className=" md:h-56 md:w-56" /> 
         
         <p className="text-center font-semibold ">hold a social media account.<br/></p>
         </div>
 
         <div className="flex flex-col items-center">
-        <img src={Stat2} className="h-56 w-56 " />
+        <img src={Stat2} className="md:h-56 md:w-56 " />
         
         <p className="text-center font-semibold">spend most of their digital time <br/> on a mobile device.</p>
         </div>
 
         <div className="flex flex-col items-center">
-        <img src={Stat2} className="h-56 w-56" />
+        <img src={Stat2} className="md:h-56 md:w-56" />
         <p className="text-center font-semibold">garnered information on the 2020 <br/> presidential election online.</p>
         </div>
 
         <div className="flex flex-col items-center">
-        <img src={Stat3} className="h-56 w-56 " />
+        <img src={Stat3} className="md:h-56 md:w-56 " />
         <p className="text-center font-semibold">use image led social media over alternatives<br/></p>
         </div>
 
