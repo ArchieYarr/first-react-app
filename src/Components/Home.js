@@ -42,11 +42,11 @@ function Home() {
 
       
 
-    <div className="bg-base-200 shadow-xl pb-40 md:pb-0 md:py-16">
+    <div className=" ">
       <About />
       </div>
 
-      <div className="md:py-24 ">
+      <div className=" ">
       <Contact />
      
       <Footer />

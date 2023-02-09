@@ -5,7 +5,7 @@ import CV from "../Images/HomeImg/Archie Yarr CV.pdf";
 
 function About() {
   return (
-    <div className="md:relative  md:px-8 lg:pl-40 lg:pr-64 h-screen pt-8 md:pt-4 " >
+    <div className="md:relative  md:px-8 lg:pl-40 lg:pr-64 h-screen pt-8 md:pt-4 bg-base-200 shadow-xl" >
     <HashLink className = "sm:max-w-md sm:max-h-md" to= "/#about" spy={true} smooth={true} offset={50} duration={500}><img className=" lg:hover:scale-110 md:hover:scale-105 md:absolute    mx-2 top-0 lg:left-32  lg:-mt-52 md:-mt-24    lg:max-w-screen-sm lg:max-h-screen-sm max-w-sm max-h-sm   rounded-lg h-initial shadow-2xl " src={CVImg}></img></HashLink>
     
           
