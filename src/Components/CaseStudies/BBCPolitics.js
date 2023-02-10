@@ -173,7 +173,7 @@ function BBCPolitics() {
     </tbody>
           </table>
           </div>
-          <div className="flex lg:flex-row md:flex-col">
+          <div className="flex lg:flex-row flex-col">
           <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ1}></img>
           <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ2}></img>
           </div>
@@ -189,9 +189,9 @@ function BBCPolitics() {
     {/* Competitor Content */}
     
     
-    <div className = "justify-center flex flex-row pb-8 w-screen h-32">
+    <div className = "justify-center grid grid-cols-4 h-12 w-screen pb-52 px-2 gap-2 md:flex md:flex-row md:pb-8 md:w-screen md:h-32">
     <img src ={tiktok} className=""></img>
-      <img src ={appleNews} className=""></img>
+  
       <img src={facebook} className=""></img>
       <img src ={netflix} className=""></img>
       <img src ={prime} className=""></img>
