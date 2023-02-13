@@ -34,7 +34,7 @@ import FigmaEmbed from 'react-figma-embed';
 function BBCPolitics() {
   return(
   
-    <div className="lg:overflow-x-hidden">
+    <div className="">
   {/* -----------Title Hero----------- */}
     <div className="md:hero md:min-h-screen bg-base-100" >
   
@@ -121,10 +121,12 @@ function BBCPolitics() {
         </div>
 
         </div>
-    
-        
+        </div>
+        </div>
           <p className="text-justify pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
-        <DemographicSlider className = "p-0" />
+        <DemographicSlider className = "" />
+
+        <div className="p-32">
         <p className="text-justify">After crafting an image of the target demographic I was able to begin to address the problem area and come up with some questions and statements to attempt to solve potential problems the demographic might experience.</p>
         <div className = " py-8 gap-8 lg:pr-32">
         {/* demographic HMW questions and problem statements */}
@@ -177,11 +179,11 @@ function BBCPolitics() {
           <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ1}></img>
           <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ2}></img>
           </div>
+          </div>
+        </div>
+        </div>
         
-        </div>
-        </div>
-        </div>
-        </div>
+        
     </div>
 
     {/* Demographic Content */}
@@ -189,10 +191,10 @@ function BBCPolitics() {
     {/* Competitor Content */}
     
     
-    <div className = "justify-center grid grid-cols-4 h-12 w-screen pb-52 px-2 gap-2 md:flex md:flex-row md:pb-8 md:w-screen md:h-32">
+    {/* <div className = " grid grid-cols-4 items-center h-12    ">
     <img src ={tiktok} className=""></img>
   
-      <img src={facebook} className=""></img>
+      <img src={facebook} className="  "></img>
       <img src ={netflix} className=""></img>
       <img src ={prime} className=""></img>
       <img src ={itv} className=""></img>
@@ -200,7 +202,7 @@ function BBCPolitics() {
       <img src ={snapchat} className=""></img>
       <img src ={spotify} className=""></img>
 
-    </div>
+    </div> */}
     <div className="lg:px-32 px-8 pb-8">
       <div className="flex flex-col gap-8 lg:pr-32"> 
       <h1 className="text-4xl font-bold break-normal">Competitors</h1>
@@ -235,7 +237,7 @@ function BBCPolitics() {
     <div className="flex flex-col md:flex-row p-2 py-2 md:p-8 md:py-8">
      
   
-    <div className="mockup-phone self-center flex-shrink-0 max-w-full md:motion-safe:animate-fadeInLeft">
+    <div className="mockup-phone self-center flex-shrink-0 max-w-full  md:motion-safe:animate-fadeInLeft">
   <div className="camera"></div> 
   <div className="display">
     <AppSlider className="artboard artboard-demo phone-1">Hi.</AppSlider>
