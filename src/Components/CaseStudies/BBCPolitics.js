@@ -123,7 +123,7 @@ function BBCPolitics() {
         </div>
         </div>
         </div>
-          <p className="text-justify pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
+          <p className="text-justify pl-32 pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
         <DemographicSlider className = "" />
 
         <div className="p-32">
@@ -131,7 +131,7 @@ function BBCPolitics() {
         <div className = " py-8 gap-8 lg:pr-32">
         {/* demographic HMW questions and problem statements */}
         <div > 
-        <div className="overflow-x-auto lg:overflow-x-hidden">
+        <div className="overflow-x-auto ">
           
           <table className="table table-auto w-full ">
     {/* head */}
