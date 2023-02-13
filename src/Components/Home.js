@@ -22,15 +22,15 @@ function Home() {
 
   <div className="flex flex-col items-center min-h-fit bg-base-100 md:px-8  ">
     
-      <div className="pt-24">
+      <div className="">
         <div className="flex flex-row flex-shrink-0">
         <img className = "motion-safe:animate-wave"src = {wave}></img><a target="_blank" rel="noreferrer" href="https://icons8.com"></a>
       <h1 className="text-5xl font-bold">Hi I'm Archie! </h1>
       </div>
-      <p className="px-8 py-6 text-justify">I'm a Computing Science graduate and aspiring UX designer. Have a look at some of my work and learn a bit about me, feel free to get in touch too!</p>
+      <p className="px-8 md:pr-24 py-6 text-justify">I'm a Computing Science graduate and aspiring UX designer. Have a look at some of my work and learn a bit about me, feel free to get in touch too!</p>
       </div>
 
-      <div className ="flex lg:flex-row flex-col lg:gap-24 lg:px-80 lg:pb-52 "  >
+      <div className ="flex md:flex-row flex-col justify-center lg:gap-24 lg:pb-52 "  >
 
       <BBCPoliticsCard />
       <PortfolioSiteCard />
