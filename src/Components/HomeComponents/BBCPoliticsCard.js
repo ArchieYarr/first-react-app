@@ -13,7 +13,7 @@ function BBCPoliticsCard() {
               
             </div>
         <span className="font-bold">BBC Politics</span>
-        <span className="block text-gray-500 text-sm">Designing a new BBC digital product for 18-24 year olds!</span>
+        <span className="block text-gray-500 text-sm">Designing a digital product.</span>
       
       
             <div>

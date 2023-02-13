@@ -14,7 +14,7 @@ function PortfolioSiteCard() {
               
             </div>
         <span className="font-bold">Portfolio Project</span>
-        <span className="block text-gray-500 text-sm">Developing and designing this site!</span>
+        <span className="block text-gray-500 text-sm">Developing and designing this site.</span>
       
       
             <div>

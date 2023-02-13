@@ -14,7 +14,7 @@ function NavBar() {
     <nav className=" lg:bg-base-100  sticky top-0 z-50 lg:bg-opacity-0 "  >
       {/* Navbar for large screens */}
       
-      <div className = "DESKTOP-MENU flex items-center justify-between h-16">
+      <div className = " flex items-center justify-between h-16">
         <HashLink className=" lg:flex btn btn-ghost normal-case text-xl " to = "/#home" spy={true} smooth={true} offset={50} duration={500}>Archie Yarr</HashLink>
       
       
