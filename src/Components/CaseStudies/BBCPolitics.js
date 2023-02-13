@@ -190,15 +190,15 @@ function BBCPolitics() {
     {/* Competitor Content */}
     
     
-    <div className = " flex flex-row  max-w-screen  ">
-      <img src ={tiktok} className="max-h-64 max-w-64"></img>
-      <img src={facebook} className=" max-h-64 max-w-64"></img>
-      <img src ={netflix} className="max-h-64 max-w-64"></img>
-      <img src ={prime} className="max-h-64 max-w-64"></img>
-      <img src ={itv} className="max-h-64 max-w-64"></img>
-      <img src ={sky} className="max-h-64 max-w-644"></img> 
-      <img src ={snapchat} className="max-h-64 max-w-64"></img>
-      <img src ={spotify} className="max-h-64 max-w-64"></img>
+    <div className = " flex flex-row justify-center   w-screen h-64 max-w-screen  ">
+      <img src ={tiktok} className=""></img>
+      <img src={facebook} className=" "></img>
+      <img src ={netflix} className=""></img>
+      <img src ={prime} className=""></img>
+      <img src ={itv} className=""></img>
+      <img src ={sky} className=""></img> 
+      <img src ={snapchat} className=""></img>
+      <img src ={spotify} className=""></img>
 
     </div>
     <div className="lg:px-32 px-8 pb-8">
