@@ -10,13 +10,12 @@ import Stat3 from "../../Images/BBCImg/UntitledDesign3.svg"
 import BBCBrief from "../../Images/BBCImg/BBCBriefPDF.pdf"
 import hmwQ1 from "../../Images/BBCImg/hmwQ1.png"
 import hmwQ2 from "../../Images/BBCImg/hmwQ2.png"
-import appleNews from "../../Images/BBCImg/competitorImg/apple news.png"
-import facebook from "../../Images/BBCImg/competitorImg/facebook logo.png"
-import tiktok from "../../Images/BBCImg/competitorImg/TikTok logo.png"
+import facebook from "../../Images/BBCImg/competitorImg/icons8-facebook.svg"
+import tiktok from "../../Images/BBCImg/competitorImg/icons8-tiktok.svg"
 import itv from "../../Images/BBCImg/competitorImg/icons8-itv-hub.svg"
-import netflix from "../../Images/BBCImg/competitorImg/netlfix.png"
+import netflix from "../../Images/BBCImg/competitorImg/icons8-netflix-desktop-app.svg"
 import prime from "../../Images/BBCImg/competitorImg/icons8-amazon-prime-video.svg"
-import sky from "../../Images/BBCImg/competitorImg/Sky-News-Logo.png"
+import sky from "../../Images/BBCImg/competitorImg/icons8-news.svg"
 import snapchat from "../../Images/BBCImg/competitorImg/icons8-snapchat.svg"
 import spotify from "../../Images/BBCImg/competitorImg/icons8-spotify.svg"
 
@@ -91,7 +90,7 @@ function BBCPolitics() {
     </div>
     {/* Demographic Content */}
     <div className="p-1 md:p-8 bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
-      <div className="lg:p-32">
+      <div className="lg:px-32">
     <h1 className="text-4xl font-bold break-normal">The Demographic</h1>
     <p className="text-justify py-8 lg:pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
         <div className="flex flex-col gap-8">
@@ -126,7 +125,7 @@ function BBCPolitics() {
           <p className="text-justify lg:pl-32 pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
         <DemographicSlider className = "" />
 
-        <div className="lg:p-32">
+        <div className="lg:px-32">
         <p className="text-justify">After crafting an image of the target demographic I was able to begin to address the problem area and come up with some questions and statements to attempt to solve potential problems the demographic might experience.</p>
         <div className = " py-8 gap-8 lg:pr-32">
         {/* demographic HMW questions and problem statements */}
@@ -191,18 +190,17 @@ function BBCPolitics() {
     {/* Competitor Content */}
     
     
-    {/* <div className = " grid grid-cols-4 items-center h-12    ">
-    <img src ={tiktok} className=""></img>
-  
-      <img src={facebook} className="  "></img>
-      <img src ={netflix} className=""></img>
-      <img src ={prime} className=""></img>
-      <img src ={itv} className=""></img>
-      <img src ={sky} className=""></img> 
-      <img src ={snapchat} className=""></img>
-      <img src ={spotify} className=""></img>
+    <div className = " flex flex-row  max-w-screen  ">
+      <img src ={tiktok} className="max-h-64 max-w-64"></img>
+      <img src={facebook} className=" max-h-64 max-w-64"></img>
+      <img src ={netflix} className="max-h-64 max-w-64"></img>
+      <img src ={prime} className="max-h-64 max-w-64"></img>
+      <img src ={itv} className="max-h-64 max-w-64"></img>
+      <img src ={sky} className="max-h-64 max-w-644"></img> 
+      <img src ={snapchat} className="max-h-64 max-w-64"></img>
+      <img src ={spotify} className="max-h-64 max-w-64"></img>
 
-    </div> */}
+    </div>
     <div className="lg:px-32 px-8 pb-8">
       <div className="flex flex-col gap-8 lg:pr-32"> 
       <h1 className="text-4xl font-bold break-normal">Competitors</h1>
