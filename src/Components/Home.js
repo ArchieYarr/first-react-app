@@ -22,7 +22,7 @@ function Home() {
 
   <div className="flex flex-col items-center min-h-fit bg-base-100 md:px-8  ">
     
-      <div className="">
+      <div className="pt-24">
         <div className="flex flex-row flex-shrink-0">
         <img className = "motion-safe:animate-wave"src = {wave}></img><a target="_blank" rel="noreferrer" href="https://icons8.com"></a>
       <h1 className="text-5xl font-bold">Hi I'm Archie! </h1>

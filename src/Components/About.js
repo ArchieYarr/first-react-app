@@ -5,9 +5,9 @@ import CV from "../Images/HomeImg/Archie Yarr CV.pdf";
 
 function About() {
   return (
-    <div className="flex flex-row md:relative min-w-screen   md:px-8 lg:pl-40 lg:pr-64 pt-8   md:pt-4     bg-base-200 shadow-xl" >
+    <div className="flex flex-col md:flex-row md:relative min-w-screen   md:px-8 lg:pl-40 lg:pr-64 pt-8   md:pt-4     bg-base-200 shadow-xl" >
       <div className="bg-base-200 h-screen">
-    <HashLink className = "sm:max-w-md sm:max-h-md" to= "/#about" spy={true} smooth={true} offset={50} duration={500}><img className=" lg:hover:scale-110 md:hover:scale-105 md:absolute    mx-2 top-0 lg:left-32  lg:-mt-52 md:-mt-24    lg:max-w-screen-sm lg:max-h-screen-sm max-w-sm max-h-sm   rounded-lg h-initial shadow-2xl " src={CVImg}></img></HashLink>
+    <HashLink className = "" to= "/#about" spy={true} smooth={true} offset={50} duration={500}><img className=" lg:hover:scale-110 md:hover:scale-105 md:absolute    mx-2 top-0 lg:left-32  lg:-mt-52 md:-mt-24    lg:max-w-screen-sm lg:max-h-screen-sm max-w-sm max-h-sm   rounded-lg h-initial shadow-2xl " src={CVImg}></img></HashLink>
     </div>
           
     <div className="lg:ml-[42rem] md:ml-[30rem] m-2  flex flex-col flex-wrap place-items-start ">
