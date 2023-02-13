@@ -72,7 +72,7 @@ function OnboardingSlider(){
 
     return(
 
-        <div className = "bg-auto h-[57.875rem] w-[26.75rem] m-auto relative group pr-px">
+        <div className = "bg-auto h-[57.875rem] w-[26.75rem] relative group pr-px">
 
             <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full bg-center bg-cover inset-0  duration-500"></div>
             {/* left Arrow */}
