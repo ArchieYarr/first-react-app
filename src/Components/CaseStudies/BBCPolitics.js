@@ -90,7 +90,7 @@ function BBCPolitics() {
     {/* Specification content */}
     </div>
     {/* Demographic Content */}
-    <div className="p-2 md:p-8 bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
+    <div className="p-1 md:p-8 bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
       <div className="lg:p-32">
     <h1 className="text-4xl font-bold break-normal">The Demographic</h1>
     <p className="text-justify py-8 lg:pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
@@ -123,7 +123,7 @@ function BBCPolitics() {
         </div>
         </div>
         </div>
-          <p className="text-justify pl-32 pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
+          <p className="text-justify lg:pl-32 pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
         <DemographicSlider className = "" />
 
         <div className="p-32">
