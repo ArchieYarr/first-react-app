@@ -14,7 +14,7 @@ function NavBar() {
     <nav className={' bg-base-100  sticky top-0 z-50 md:bg-opacity-0'} >
       {/* Navbar for large screens */}
       
-      <div className = " md:flex md:items-center justify-between h-16 left-0  " >
+      <div className = " md:flex md:items-center justify-between h-12 left-0  " >
         <div>
         <HashLink className=" lg:flex btn btn-ghost normal-case text-xl " to = "/#home" spy={true.toString()} smooth={true} offset={50} duration={500}>Archie Yarr</HashLink>
         </div>
