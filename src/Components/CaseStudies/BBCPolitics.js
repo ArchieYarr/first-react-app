@@ -38,7 +38,7 @@ function BBCPolitics() {
     <div className="md:hero md:min-h-screen bg-base-100" >
   
   <div className="md:hero-content px-2 py-4 md:px-0 md:py-0 text-start text-neutral-content motion-safe:animate-fadeIn">
-  <img src={BBC} className="md:max-w-sm rounded-lg shadow-2xl" />
+  <img src={BBC} className="max-w-xs md:max-w-sm rounded-lg shadow-2xl" />
     <div className="max-w-md">
       <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">BBC Politics</h1>
       <p className="mb-5 text-justify">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
@@ -61,7 +61,7 @@ function BBCPolitics() {
       <div className="flex md:flex-row flex-col py-8">
       
       <div className = "pr-10">
-      <img src={BBCLogo} className="lg:max-w-screen-sm md:min-w-screen-sm rounded-lg h-initial motion-safe:animate-fadeInLeft  " />
+      <img src={BBCLogo} className="max-w-xs max-h-xs md:max-w-screen-sm md:min-w-screen-sm rounded-lg md:h-initial motion-safe:animate-fadeInLeft  " />
       </div>
 
       <div className="flex flex-col gap-8  px-2 md:px-0">
@@ -69,7 +69,7 @@ function BBCPolitics() {
       <h1 className="text-4xl font-bold break-normal">The Specification</h1>
       <p className="text-justify">The BBC is the world's most recognized creative organisation and the state broadcaster in the United Kingdom for over 100 years. They broadcast and produce a variety of content. From drama, comedy, sports and news they broadcast across TV, digital and web platforms. The BBC User Experience and Design (UX&D) department shapes the user experience across the BBC's digital product suite. It is made up of UX designers, architects and researchers who collaborate across the organisation to create excellent digital experiences. As part of a UX module I studied in my final year of University the team set us a specification to create a new digital product to add to the suite, aimed at 18-24-year-olds.  </p>
       <h2 className="text-2xl font-bold break-normal">Project Background</h2>
-      <p className="text-justify ">Due to a drop in interest amongst younger audiences across their services, the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore, trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:
+      <p className="text-justify ">Due to a drop in interest amongst younger audiences across their services, the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore, trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:</p>
        <ul className="pl-8 py-2 list-disc">
         <li>Politics</li>
         <li>Climate</li>
@@ -80,8 +80,8 @@ function BBCPolitics() {
 
         
 
-      </p>
-      <a href = {BBCBrief} rel="noreferrer" target ="blank" className="btn btn-primary">Full Specification</a>
+     
+           <a href = {BBCBrief} rel="noreferrer" target ="blank" className="btn btn-primary">Full Specification</a>
       </div>
       </div>
       
@@ -270,11 +270,7 @@ function BBCPolitics() {
 
     </div>
 
-    {/* FIGMA Embedded feature */}
-    <div className="flex flex-row place-content-center pb-24  ">
-      <FigmaEmbed className = "  " url = "https://www.figma.com/proto/BgMsPUqHRIAdcq1XldosgI/BBC-Politics?page-id=0%3A1&node-id=2%3A2&viewport=667%2C307%2C0.09&scaling=contain&starting-point-node-id=2%3A2"/>
-    </div>
-    {/* Proposed Solution */}
+    
     
     
     
