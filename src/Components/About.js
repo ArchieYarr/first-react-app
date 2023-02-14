@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="flex flex-col md:flex-row min-w-screen    md:px-8   py-8   md:pt-4     bg-base-200 shadow-xl" >
       <div className="bg-base-200 h-screen-md  md:max-h-screen   ">
-    <HashLink className = "" to= "/#about" spy={true.toString()} smooth={true} offset={50} duration={500}><img className=" lg:hover:scale-110 md:hover:scale-105     px-1 md:px-0 top-0  lg:-mt-52 md:-mt-24 -mt-12    lg:max-w-screen-sm lg:max-h-screen-sm  max-h-sm max-w-sm  rounded-lg h-initial  " src={CVImg}></img></HashLink>
+    <HashLink className = "" to= "/#about" spy={true.toString()} smooth={true} offset={50} duration={500}><img className="hidden md:block lg:hover:scale-110 md:hover:scale-105     px-1 md:px-0 top-0  lg:-mt-52 md:-mt-24 -mt-12    lg:max-w-screen-sm lg:max-h-screen-sm  max-h-sm max-w-sm  rounded-lg h-initial  " src={CVImg}></img></HashLink>
     </div>
           
     <div className=" flex flex-col  place-items-start px-8 ">
