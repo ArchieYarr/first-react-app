@@ -1,7 +1,7 @@
 
 import { React, useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
-import BurgerMenu from "../Images/NavImg/burger menu.svg";
+
 
 
 
