@@ -5,12 +5,12 @@ import CV from "../Images/HomeImg/Archie Yarr CV.pdf";
 
 function About() {
   return (
-    <div className="flex flex-col md:flex-row md:relative min-w-screen    md:px-8 lg:pl-40 lg:pr-64 pt-8   md:pt-4     bg-base-200 shadow-xl" >
-      <div className="bg-base-200 h-screen-md  md:h-screen ">
-    <HashLink className = "" to= "/#about" spy={true.toString()} smooth={true} offset={50} duration={500}><img className=" lg:hover:scale-110 md:hover:scale-105 md:absolute    px-1 md:px-0 top-0 lg:left-32  lg:-mt-52 md:-mt-24     lg:max-w-screen-sm lg:max-h-screen-sm  max-h-sm   rounded-lg h-initial shadow-2xl " src={CVImg}></img></HashLink>
+    <div className="flex flex-col md:flex-row min-w-screen    md:px-8   pt-8   md:pt-4     bg-base-200 shadow-xl" >
+      <div className="bg-base-200 h-screen-md  md:h-screen  ">
+    <HashLink className = "" to= "/#about" spy={true.toString()} smooth={true} offset={50} duration={500}><img className=" lg:hover:scale-110 md:hover:scale-105     px-1 md:px-0 top-0  lg:-mt-52 md:-mt-24 -mt-12    lg:max-w-screen-sm lg:max-h-screen-sm  max-h-sm max-w-sm  rounded-lg h-initial  " src={CVImg}></img></HashLink>
     </div>
           
-    <div className="lg:ml-[42rem] md:ml-[30rem] m-2  flex flex-col flex-wrap place-items-start ">
+    <div className=" flex flex-col flex-wrap place-items-start px-8 ">
     
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold  ">GCU Computing graduate from St Andrews, Scotland. Currently based in Glasgow.</h1>
              <p className="py-8 text-justify">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi. Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
