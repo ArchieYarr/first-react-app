@@ -1,38 +1,41 @@
 
 import { React, useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
-import BurgerMenu from "../Images/NavImg/icons8-menu.svg";
+import BurgerMenu from "../Images/NavImg/burger menu.svg";
 import {AiFillDelete, AiOutlineMenuUnfold} from "react-icons/ai"
 
 
 function NavBar() {
 
-  const [open, setOpen] = useState(false)
+let [open, setOpen] = useState(false)
   
   return (
     
-    <nav className={' lg:bg-base-100  sticky top-0 z-50 lg:bg-opacity-0'} >
+    <nav className={'bg-base-200 md:bg-base-100  sticky top-0 z-50 md:bg-opacity-0'} >
       {/* Navbar for large screens */}
       
-      <div className = " flex items-center justify-between h-16">
+      <div className = " md:flex md:items-center justify-between h-16 left-0  " >
+        <div>
         <HashLink className=" lg:flex btn btn-ghost normal-case text-xl " to = "/#home" spy={true.toString()} smooth={true} offset={50} duration={500}>Archie Yarr</HashLink>
-      
-        <div onClick = {()=> setOpen(!open)} className="tesxt-3xl absolute right-8 top-5 cursor-pointer lg:hidden">
-
-{
-
-  open ? <AiFillDelete />: <AiOutlineMenuUnfold/>
-
-}
-
-</div>
-        <div className={"  lg:flex  space-x-4 px-1 ${open ? 'top-18 opacity-100' : 'top-[-490] lg:opacity-100 opacity-0' } "}>
-            <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = "/#home" spy={true.toString()} smooth={true} offset={50} duration={500}>Home</HashLink>
-            
-            <HashLink className = "btn btn-ghost active:bg-primary normal-case" to= "/#about" spy={true.toString()} smooth={true} offset={50} duration={500} >About</HashLink>
-            
-              <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = '#contact' spy={true.toString()} smooth={true} offset={50} duration={500} >Contact</HashLink>  
         </div>
+
+        <div onClick = {()=>setOpen(!open)} className=" text-3xl absolute right-8 top-0 cursor-pointer md:hidden">
+        <ion-icon name= {open ? 'close': 'menu'}></ion-icon>
+          {/* <button name = {open ? 'close': 'menu' }  className="btn btn-square btn-ghost px-0"  > <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button> */}
+        </div>
+
+        <ul className={"bg-base-200 md:bg-base-100 md:flex md:items-center md:pb-0 pb-4 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 transition-all duration-500 ease-in"}>
+           <li> 
+            <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = "/#home" spy={true.toString()} smooth={true} offset={50} duration={500}>Home</HashLink>
+           </li>
+           <li>
+            <HashLink className = "btn btn-ghost active:bg-primary normal-case" to= "/#about" spy={true.toString()} smooth={true} offset={50} duration={500} >About</HashLink>
+            </li>
+            <li>
+              <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = '#contact' spy={true.toString()} smooth={true} offset={50} duration={500} >Contact</HashLink>  
+              </li>
+        </ul>
+
         </div>
       
 {/* Flexible burger menu button to go here*/}
