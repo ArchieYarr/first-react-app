@@ -122,9 +122,10 @@ function BBCPolitics() {
         </div>
         </div>
         </div>
-          <p className="text-justify lg:pl-32 pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
+          <p className="text-justify lg:px-32 pb-8">Based on the research done about the demographic I collated the information into some more usable formats. I created an affinity diagram and empathy map to visualise their priorities, needs and wants.  </p>
+        
         <DemographicSlider className = "" />
-
+        
         <div className="lg:px-32">
         <p className="text-justify">After crafting an image of the target demographic I was able to begin to address the problem area and come up with some questions and statements to attempt to solve potential problems the demographic might experience.</p>
         <div className = " py-8 gap-8 lg:pr-32">
@@ -208,7 +209,7 @@ function BBCPolitics() {
       <img src ={spotify} className=""></img>
       
     </div>
-    <div className="lg:px-32 px-8 pb-8">
+    <div className="lg:px-32 px-8 pb-8 ">
       <div className="flex flex-col gap-8 lg:pr-32"> 
       <h1 className="text-4xl font-bold break-normal">Competitors</h1>
           <p className="text-justify">FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest. FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller Text goes here for the BBC brief. I will probably put a button here for the full brief to a pdf of some kind. The bit there should have a brief summary and maybe even just bullet points to be honest.FIller </p>
@@ -242,7 +243,7 @@ function BBCPolitics() {
     <div className="flex flex-col md:flex-row p-2 py-2 md:p-8 md:py-8">
      
   
-    <div className="mockup-phone self-center flex-shrink-0 max-w-full  md:motion-safe:animate-fadeInLeft">
+    <div className="mockup-phone self-center flex-shrink-0  max-w-full  md:motion-safe:animate-fadeInLeft">
   <div className="camera"></div> 
   <div className="display">
     <AppSlider className="artboard artboard-demo phone-1">Hi.</AppSlider>

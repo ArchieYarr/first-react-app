@@ -61,7 +61,7 @@ function DemographicSlider(){
 
     return(
 
-        <div className = "items-center h-[24rem] w-screen lg:max-w-screen lg:h-[52rem] lg:w-full md:h-[36rem] md:w-[48rem] overflow-hidden relative group">
+        <div className = "items-center h-[24rem] max-w-screen lg:h-[52rem] lg:w-full md:h-[36rem] md:w-[48rem] overflow-hidden px-2 relative group">
 
             <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-r-2xl bg-center bg-no-repeat bg-contain duration-500"></div>
             {/* left Arrow */}

@@ -65,9 +65,9 @@ function AppSlider(){
 
     return(
 
-        <div className = "md:h-[57.875rem] md:w-[26.75rem] w-full h-screen  m-auto relative group">
+        <div className = "md:h-[57.875rem] md:w-[26.75rem]    relative group pr-px">
 
-            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-screen h-full rounded-r-2xl bg-left bg-contain duration-500"></div>
+            <div style = {{backgroundImage: `url(${slides[currentIndex].url})`}} className = "w-full h-full rounded-r-2xl bg-left bg-cover duration-500"></div>
             {/* left Arrow */}
             <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 -translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                 <BsChevronCompactLeft onClick = {prevSlide} size={30} />
