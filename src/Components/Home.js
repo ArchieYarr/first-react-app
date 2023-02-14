@@ -34,7 +34,7 @@ function Home() {
 
       <BBCPoliticsCard />
       <PortfolioSiteCard />
-      <div className = "absolute bottom-[9.5rem]" id = "about"></div>
+      <div className = "absolute bottom-[9.5rem]"></div>
     </div>
     
   </div>
@@ -42,7 +42,7 @@ function Home() {
 
       
 
-    <div className="md:pt-16 ">
+    <div className="md:pt-16 "  id = "about">
       <About />
       </div>
 
