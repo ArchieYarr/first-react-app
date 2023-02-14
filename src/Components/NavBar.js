@@ -25,7 +25,7 @@ function NavBar() {
         <button className={open ? "": "hidden"}><svg xmlns="http://www.w3.org/2000/svg" className="inline-block h-5 w-5 stroke-current" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" /></svg></button>
         </div>
 
-        <ul className={"bg-base-200 md:bg-base-100 md:flex md:items-center md:pb-0 pb-4 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 transition-all duration-500 ease-in   "}>
+        <ul className={`bg-base-200 md:bg-base-100 md:flex md:items-center md:pb-0 pb-4 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
            <li> 
             <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = "/#home" spy={true.toString()} smooth={true} offset={50} duration={500}>Home</HashLink>
            </li>
@@ -41,7 +41,7 @@ function NavBar() {
       
 {/* Flexible burger menu button to go here*/}
     
-
+{/* "transition-all duration-500 ease-in    "} */}
     </nav>
   );
 }
