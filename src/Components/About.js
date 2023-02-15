@@ -13,7 +13,13 @@ function About() {
     <div className=" flex flex-col  place-items-start px-8 ">
     
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold  ">GCU Computing graduate from St Andrews, Scotland. Currently based in Glasgow.</h1>
-             <p className="py-8 text-justify">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi. Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <div className="text-justify">
+             <p className="pt-8 pb-4 ">As a designer, I love tackling knotty challenges. From prototyping and wireframing to JavaScript and CSS, contributing to a team and learning from others is my favourite part of the process. I've experienced design processes academically and vocationally and nothing else has got me as excited as seeing a component, interaction or process finally come together.
+
+                                              As a person, I enjoy cooking, training, technology and walking with friends. And when I have the chance reading and sketching are my go-to ways to relax. </p>
+
+                                              <p className="py-2">A goal of mine is to combine what I do for fun with my career opportunities. So joining a field that works creatively, collaboratively and with technology aligns with my goals and is an area that I can't wait to contribute to.</p>
+                                              </div>
             <a href = {CV} rel="noreferrer" target ="blank" className="btn btn-primary">Check out my CV</a>
           </div>
       
