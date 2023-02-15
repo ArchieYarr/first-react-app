@@ -13,10 +13,10 @@ function About() {
     <div className=" flex flex-col  place-items-start px-8 ">
     
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold  ">GCU Computing graduate from St Andrews, Scotland. Currently based in Glasgow.</h1>
-            <div className="text-left">
-              <p className="pt-8 pb-2">
-                I'm a curios designer and technology geek who's committed to advocating for the user wherever I'm working. 
-                I believe that effective user centric design can have real impact on peoples lives no matter how big or small. 
+            <div className="py-8">
+              <p className="py-2">
+              I'm a curious designer and technology geek who's committed to advocating for the user wherever I'm working. 
+              I believe that effective user-centric design can have a real impact on people's lives no matter how big or small.
               </p>
 
               <p className="py-2 ">
