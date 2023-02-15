@@ -8,14 +8,20 @@ import { HashLink } from "react-router-hash-link";
 function NavBar() {
 
 
+  
 
   let [open, setOpen]= useState(false)
+
+  useEffect(()=>{
+    document.addEventListener("mousedown", ()=> setOpen(false))
+  })
+
   return (
     
     <nav className={' bg-base-100  sticky top-0 z-50 lg:bg-opacity-0'} >
       {/* Navbar for large screens */}
       
-      <div className = " lg:flex lg:items-center justify-between h-13 left-0  " >
+      <div  className = " lg:flex lg:items-center justify-between h-13 left-0  " >
         <div>
         <HashLink onClick = {()=>setOpen(!open)} className={ open ? "motion-safe:animate-fadeIn lg:flex btn btn-ghost normal-case text-2xl md:text-xl ": " lg:flex btn btn-ghost normal-case text-2xl md:text-xl"} to = "/#home" spy={true.toString()} smooth={true} offset={50} duration={500}>Archie Yarr</HashLink>
         </div>
@@ -40,9 +46,6 @@ function NavBar() {
 
         </div>
       
-{/* Flexible burger menu button to go here*/}
-    
-{/* "transition-all duration-500 ease-in    "} */}
     </nav>
   );
 }
