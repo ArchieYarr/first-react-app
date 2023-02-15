@@ -14,12 +14,18 @@ function NavBar() {
   let menuRef = useRef()
 
   useEffect(()=>{
-    document.addEventListener("mousedown", (event)=> {
+  let handler = (event)=> {
       
-      if (!menuRef.current.contains(event.target))
-      {setOpen(false)}
-    
-    })
+  if (!menuRef.current.contains(event.target))
+  {setOpen(false)}
+
+    }
+
+    document.addEventListener("mousedown", handler )
+
+    return ()=>{
+      document.removeEventListener("mousedown", handler)
+    }
   })
 
   return (
