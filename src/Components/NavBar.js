@@ -8,6 +8,7 @@ import { HashLink } from "react-router-hash-link";
 function NavBar() {
 
 
+
   let [open, setOpen]= useState(false)
   return (
     
