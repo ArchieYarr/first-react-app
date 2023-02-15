@@ -11,9 +11,15 @@ function NavBar() {
   
 
   let [open, setOpen]= useState(false)
+  let menuRef = useRef()
 
   useEffect(()=>{
-    document.addEventListener("mousedown", ()=> setOpen(false))
+    document.addEventListener("mousedown", (event)=> {
+      
+      if (!menuRef.current.contains(event.target))
+      {setOpen(false)}
+    
+    })
   })
 
   return (
@@ -32,7 +38,7 @@ function NavBar() {
         <button className={open ? "btn btn-ghost normal-case text-xl": "hidden btn btn-ghost normal-case text-xl"}><svg xmlns="http://www.w3.org/2000/svg" className="inline-block h-7 w-7 stroke-current" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" /></svg></button>
         </div>
 
-        <ul className={`bg-base-100 lg:bg-opacity-0 lg:flex lg:items-center lg:pb-0 absolute lg:static lg:z-auto z-[-1] left-0  w-full lg:w-auto lg:pl-0 transition-all duration-500 ease-in ${open ? 'top-12 ':'top-[-490px]'}`}>
+        <ul ref = {menuRef} className={`bg-base-100 lg:bg-opacity-0 lg:flex lg:items-center lg:pb-0 absolute lg:static lg:z-auto z-[-1] left-0  w-full lg:w-auto lg:pl-0 transition-all duration-500 ease-in ${open ? 'top-12 ':'top-[-490px]'}`}>
            <li> 
             <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = "/#home" spy={true.toString()} smooth={true} offset={50} duration={500}>Home</HashLink>
            </li>
