@@ -26,7 +26,8 @@ function About() {
               </p>
 
               <p className="py-2">
-                A goal of mine is to combine what I do for fun with my career opportunities. So joining a field that works creatively, collaboratively and with technology 
+                
+I can't wait to work on projects that require. So joining a field that works creatively, collaboratively and with technology 
                 aligns with my goals and is an area that I can't wait to contribute to.
               </p>
             </div>
