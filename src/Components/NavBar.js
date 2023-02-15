@@ -1,31 +1,37 @@
-
-import { React, useState, useEffect, useRef } from "react";
+import React,  { useState, useEffect, useRef } from "react";
 import { HashLink } from "react-router-hash-link";
+import * as ReactDom from "react-dom"
 
-
-
+function useClickOutside(handler){
+  let domNode = useRef()
+  useEffect(()=>{
+    let maybehandler = (event)=> {
+        
+    if (!domNode.current.contains(event.target)){
+    
+      handler()
+      }
+  
+      }
+  
+      document.addEventListener("mousedown", maybehandler )
+  
+      return ()=>{
+        document.removeEventListener("mousedown", maybehandler)
+      }
+    })
+    return domNode
+}
 
 function NavBar() {
+
+  let [open, setOpen]= useState(false)
 
 
   
 
-  let [open, setOpen]= useState(false)
-  let menuRef = useRef()
-
-  useEffect(()=>{
-  let handler = (event)=> {
-      
-  if (!menuRef.current.contains(event.target))
-  {setOpen(false)}
-
-    }
-
-    document.addEventListener("mousedown", handler )
-
-    return ()=>{
-      document.removeEventListener("mousedown", handler)
-    }
+  let domNode = useClickOutside(()=>{
+    setOpen(false)
   })
 
   return (
@@ -33,7 +39,7 @@ function NavBar() {
     <nav className={' bg-base-100  sticky top-0 z-50 lg:bg-opacity-0'} >
       {/* Navbar for large screens */}
       
-      <div ref = {menuRef} className = " lg:flex lg:items-center justify-between h-13 left-0  " >
+      <div ref = {domNode} className = " lg:flex lg:items-center justify-between h-13 left-0  " >
         <div>
         <HashLink onClick = {()=>setOpen(!open)} className={ open ? "motion-safe:animate-fadeIn lg:flex btn btn-ghost normal-case text-2xl md:text-xl ": " lg:flex btn btn-ghost normal-case text-2xl md:text-xl"} to = "/#home" spy={true.toString()} smooth={true} offset={50} duration={500}>Archie Yarr</HashLink>
         </div>
