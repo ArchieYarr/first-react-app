@@ -12,9 +12,7 @@ function useClickOutside(handler){
         handler()
       }
     
-    
-      
-      
+  
   
       }
   
