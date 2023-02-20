@@ -17,12 +17,12 @@ function Home() {
   return (
     
     
-    <div className="flex flex-col bg-base-100 gap-10  " id = "home">
+    <div className="  flex flex-col bg-base-100 gap-10  " id = "home">
 
 
-  <div className="scroll-p-6 snap-y flex flex-col items-center min-h-fit bg-base-100 md:px-8  ">
+  <div className="  flex flex-col items-center min-h-fit bg-base-100 md:px-8  ">
     
-      <div className="pt-24">
+      <div className=" pt-24">
         <div className="flex flex-row flex-shrink-0">
         <img className = "motion-safe:animate-wave"src = {wave}></img><a target="_blank" rel="noreferrer" href="https://icons8.com"></a>
       <h1 className="text-5xl font-bold">Hi I'm Archie! </h1>
@@ -40,17 +40,15 @@ function Home() {
   </div>
 
 
-      
-
-    <div className="scroll-p-6 snap-y md:pt-16 "  id = "about">
-      <About />
+  <div id = "about">
+      <About  />
       </div>
 
-      <div className=" scroll-p-6 snap-y">
-      <Contact />
+      
+      <Contact  />
      
       <Footer />
-      </div>
+      
       
     </div>
   );
