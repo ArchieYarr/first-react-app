@@ -1,7 +1,7 @@
 import {React, useState, useEffect} from "react"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
-import AffinityDiagram from "../../../Images/BBCImg/AffinityDiagram.png"
-import EmpathyMap from "../../../Images/BBCImg/EmpathyMap.png"
+import AffinityDiagram from "../../../Images/BBCImg/AffinityDiagramC.png"
+import EmpathyMap from "../../../Images/BBCImg/EmpathyMapC.png"
 
 
 function DemographicSlider(){
