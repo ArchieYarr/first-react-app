@@ -1,6 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 import React from "react";
-import CVImg from "../Images/AboutImg/Archie Yarr CV.png";
+import CVImg from "../Images/AboutImg/Archie Yarr CV v2.png";
 import CV from "../Images/HomeImg/Archie Yarr CV.pdf";
 
 function About() {
@@ -23,7 +23,7 @@ function About() {
               As a designer, I love tackling knotty challenges. From prototyping and wireframing to JavaScript and CSS, contributing to a team and learning from others is 
               my favourite part of the process. I've experienced the design process academically and vocationally and nothing else has got me as excited as seeing a component, 
               interaction or process being shaped by the people working on it. As a person, I love to delve into my hobbies and I take them (nearly) as seriously as I enjoy doing them.
-              I love cooking, training, technology and bagging Munros. And when I have the chance reading and sketching are my go-to ways to relax. 
+              I love cooking, training, technology and climbing Munros. And when I have the chance reading and sketching are my go-to ways to relax. 
               </p>
 
               <p className="py-2">
