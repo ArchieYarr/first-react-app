@@ -5,12 +5,12 @@ import { HashLink } from "react-router-hash-link";
 function useClickOutside(handler){
   let domNode = useRef()
   useEffect(()=>{
-    let maybehandler = (event)=> {
+    let maybehandler = ()=> {
         
-    if (!domNode.current.contains(event.target)){
+    
     
       handler()
-      }
+      
   
       }
   
