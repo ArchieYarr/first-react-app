@@ -35,16 +35,17 @@ function BBCPolitics() {
   
     <div className="">
   {/* -----------Title Hero----------- */}
-    <div className="md:hero md:min-h-screen bg-base-100" >
+    <div className="flex flex-col items-center justify-center md:hero min-h-screen bg-base-100" >
   
-  <div className="md:hero-content px-2 py-4 md:px-0 md:py-0 text-start text-neutral-content motion-safe:animate-fadeIn">
-  <img src={BBC} className="max-w-xs md:max-w-sm rounded-lg shadow-2xl" />
-    <div className="max-w-md">
+  <div className="md:hero-content px-2 py-4 md:px-0 md:py-0   motion-safe:animate-fadeIn">
+  <img src={BBC} className="self-center max-w-xs md:max-w-sm rounded-lg shadow-2xl" />
+    <div className="text-center md:max-w-md">
       <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">BBC Politics</h1>
-      <p className="mb-5 text-justify">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <div className ="">
+      <h2 className="mb-5 text-xl md:text-2xl lg:text-3xl font-semibold">Creating an engaging way to interact with politics for 18-24-year-olds. </h2>
+      <p className="mb-5 ">As part of my final year of study, I worked with the BBC UX design team to create a new experience for their digital suite.</p>
+      
       <Link to = 'summary' spy={true} smooth={true} offset={50} duration={500}><button className="btn btn-primary">Get Started</button></Link>
-      </div>
+      
     </div>
   </div>
     </div>
@@ -67,9 +68,9 @@ function BBCPolitics() {
       <div className="flex flex-col gap-8  px-2 md:px-0">
 
       <h1 className="text-4xl font-bold break-normal">The Specification</h1>
-      <p className="text-justify">The BBC is the world's most recognized creative organisation and the state broadcaster in the United Kingdom for over 100 years. They broadcast and produce a variety of content. From drama, comedy, sports and news they broadcast across TV, digital and web platforms. The BBC User Experience and Design (UX&D) department shapes the user experience across the BBC's digital product suite. It is made up of UX designers, architects and researchers who collaborate across the organisation to create excellent digital experiences. As part of a UX module I studied in my final year of University the team set us a specification to create a new digital product to add to the suite, aimed at 18-24-year-olds.  </p>
+      <p className="">The BBC is the world's most recognized creative organisation and the state broadcaster in the United Kingdom for over 100 years. They broadcast and produce a variety of content. From drama, comedy, sports and news they broadcast across TV, digital and web platforms. The BBC User Experience and Design (UX&D) department shapes the user experience across the BBC's digital product suite. It is made up of UX designers, architects and researchers who collaborate across the organisation to create excellent digital experiences. As part of a UX module I studied in my final year of University the team set us a specification to create a new digital product to add to the suite, aimed at 18-24-year-olds.  </p>
       <h2 className="text-2xl font-bold break-normal">Project Background</h2>
-      <p className="text-justify ">Due to a drop in interest amongst younger audiences across their services, the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore, trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:</p>
+      <p className=" ">Due to a drop in interest amongst younger audiences across their services, the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore, trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:</p>
        <ul className="pl-8 py-2 list-disc">
         <li>Politics</li>
         <li>Climate</li>
