@@ -57,9 +57,9 @@ function BBCPolitics() {
   <div className=" lg:py-16 lg:px-32 md:p-8 drop-shadow-2xl" id= "summary">
 
     {/* Specification content */}
-    <div className = "lg:pr-32">
+    <div className = "lg:pr-32 px-2 md:px-0 py-8 md:py-0">
     
-      <div className="flex md:flex-row flex-col pt-8">
+      <div className="flex md:flex-row flex-col gap-8">
       
       <div className = "pr-10">
       <img src={BBCLogo} className="max-w-xs max-h-xs md:max-w-screen-xs md:min-w-xs rounded-lg md:h-initial motion-safe:animate-fadeInLeft  " />
@@ -74,10 +74,7 @@ function BBCPolitics() {
                       aimed at 18-24-year-olds.  </p>
       </div>
       </div>
-      <div className="flex flex-col gap-8  px-2 md:px-0">
-
-      
-     
+      <div className="flex flex-col gap-8">
       <h2 className="text-2xl font-bold break-normal">Project Background</h2>
       <p className=" ">Due to a drop in interest amongst younger audiences across their services, 
       the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore,
