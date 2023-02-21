@@ -4,8 +4,8 @@ import { HashLink } from "react-router-hash-link";
 //hook functionality for hiding the menu when clicking outside
 function useClickOutside(handler){
   let domNode = useRef()
-  useEffect(()=>{
-    let maybehandler = (event)=> {
+  useEffect(function(){
+    let maybehandler = function(event) {
         
       if (!domNode.current.contains(event.target)){
        
@@ -18,7 +18,7 @@ function useClickOutside(handler){
   
       document.addEventListener("mousedown", maybehandler )
   
-      return ()=>{
+      return function(){
         document.removeEventListener("mousedown", maybehandler)
       }
     })
@@ -33,7 +33,7 @@ function NavBar() {
 
   
 //hook
-  let domNode = useClickOutside(()=>{
+  let domNode = useClickOutside(function(){
     setOpen(false)
   })
 
@@ -61,7 +61,7 @@ function NavBar() {
             <HashLink className = "btn btn-ghost active:bg-primary normal-case   " to= "/#about" spy={true.toString()} smooth={true} offset={50} duration={500} >About</HashLink>
             </li>
             <li >
-              <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = '#contact' spy={true.toString()} smooth={true} offset={50} duration={500} >Contact</HashLink>  
+              <HashLink className = "btn btn-ghost active:bg-primary normal-case" to = '/#contact' spy={true.toString()} smooth={true} offset={50} duration={500} >Contact</HashLink>  
               </li>
         </ul>
 
