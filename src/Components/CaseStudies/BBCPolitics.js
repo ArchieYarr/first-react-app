@@ -59,32 +59,45 @@ function BBCPolitics() {
     {/* Specification content */}
     <div className = "lg:pr-32">
     
-      <div className="flex md:flex-row flex-col py-8">
+      <div className="flex md:flex-row flex-col pt-8">
       
       <div className = "pr-10">
-      <img src={BBCLogo} className="max-w-xs max-h-xs md:max-w-screen-sm md:min-w-screen-sm rounded-lg md:h-initial motion-safe:animate-fadeInLeft  " />
+      <img src={BBCLogo} className="max-w-xs max-h-xs md:max-w-screen-xs md:min-w-xs rounded-lg md:h-initial motion-safe:animate-fadeInLeft  " />
       </div>
-
+      <div>
+      <h1 className="text-4xl font-bold break-normal">The Specification</h1>
+      <p className="pt-8">The BBC is the world's most recognized creative organisation and the state broadcaster in the United Kingdom for over 100 years. 
+                      They broadcast and produce a variety of content. From drama, comedy, sports and news they broadcast across TV, digital and web platforms. 
+                      The BBC User Experience and Design (UX&D) department shapes the user experience across the BBC's digital product suite. 
+                      It is made up of UX designers, architects and researchers who collaborate across the organisation to create excellent digital experiences. 
+                      As part of a UX module I studied in my final year of University the team set us a specification to create a new digital product to add to the suite, 
+                      aimed at 18-24-year-olds.  </p>
+      </div>
+      </div>
       <div className="flex flex-col gap-8  px-2 md:px-0">
 
-      <h1 className="text-4xl font-bold break-normal">The Specification</h1>
-      <p className="">The BBC is the world's most recognized creative organisation and the state broadcaster in the United Kingdom for over 100 years. They broadcast and produce a variety of content. From drama, comedy, sports and news they broadcast across TV, digital and web platforms. The BBC User Experience and Design (UX&D) department shapes the user experience across the BBC's digital product suite. It is made up of UX designers, architects and researchers who collaborate across the organisation to create excellent digital experiences. As part of a UX module I studied in my final year of University the team set us a specification to create a new digital product to add to the suite, aimed at 18-24-year-olds.  </p>
+      
+     
       <h2 className="text-2xl font-bold break-normal">Project Background</h2>
-      <p className=" ">Due to a drop in interest amongst younger audiences across their services, the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore, trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:</p>
+      <p className=" ">Due to a drop in interest amongst younger audiences across their services, 
+      the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore,
+       trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:</p>
        <ul className="pl-8 py-2 list-disc">
         <li>Politics</li>
         <li>Climate</li>
         <li>Health</li>
         <li>Gaming</li>
       </ul>
-      <p>I chose to focus on politics as I found interesting trends in the 18-24-year-old demographic that opened up opportunities for exciting designs. The project was broken down across 4 stages, discover, define, develop and deliver. The full specification has a detailed breakdown of what each stage involved, otherwise the important bits are all summarised below :) </p>
+      <p>I chose to focus on politics as I found interesting trends in the 18-24-year-old demographic that opened up opportunities for exciting designs. 
+        The project was broken down across 4 stages, discover, define, develop and deliver. The full specification has a detailed breakdown of what each stage involved, 
+        and the resutlts of each phase are summarised on this page. </p>
 
         
 
      
            <a href = {BBCBrief} rel="noreferrer" target ="blank" className="btn btn-primary">Full Specification</a>
       </div>
-      </div>
+      
       
     </div>
     {/* Specification content */}
