@@ -54,7 +54,7 @@ function BBCPolitics() {
 
   {/* -----------Summary Start----------- */}
     
-  <div className=" lg:p-32 md:p-8 drop-shadow-2xl" id= "summary">
+  <div className=" lg:py-16 lg:px-32 md:p-8 drop-shadow-2xl" id= "summary">
 
     {/* Specification content */}
     <div className = "lg:pr-32">
