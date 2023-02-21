@@ -35,12 +35,12 @@ function BBCPolitics() {
   
     <div className="">
   {/* -----------Title Hero----------- */}
-    <div className="flex flex-col items-center justify-center md:hero min-h-screen bg-base-100" >
+    <div className="md:hero bg-base-100" >
   
-  <div className="md:hero-content px-2 py-4 md:px-0 md:py-0   motion-safe:animate-fadeIn">
-  <img src={BBC} className="self-center max-w-xs md:max-w-sm rounded-lg shadow-2xl" />
-    <div className="text-center md:max-w-md">
-      <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">BBC Politics</h1>
+  <div className=" m-auto min-h-screen min-w-screen md:hero-content px-2 py-4 md:px-0 md:py-0   motion-safe:animate-fadeIn">
+  <img src={BBC} className=" max-w-xs md:max-w-sm rounded-lg shadow-2xl" />
+    <div className="text-center md:text-left md:pl-8 md:max-w-md">
+      <h1 className="my-5 text-3xl md:text-4xl lg:text-5xl font-bold">BBC Politics</h1>
       <h2 className="mb-5 text-xl md:text-2xl lg:text-3xl font-semibold">Creating an engaging way to interact with politics for 18-24-year-olds. </h2>
       <p className="mb-5 ">As part of my final year of study, I worked with the BBC UX design team to create a new experience for their digital suite.</p>
       
