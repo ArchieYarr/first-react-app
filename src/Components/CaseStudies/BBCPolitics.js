@@ -220,10 +220,18 @@ function BBCPolitics() {
       <img src ={spotify} className=""></img>
       
     </div>
-    <div className="lg:px-32 px-8 pb-8 ">
-      <div className="flex flex-col gap-8 lg:pr-32"> 
+    <div className="flex flex-col  gap-8  lg:px-32 px-8 pb-8 ">
+      
       <h1 className="text-4xl font-bold break-normal">Competitors</h1>
-          <p className="text-justify">Talk about the direct competitors here </p>
+      <div className="flex flex-row gap-8 justify-between "> 
+      <div>
+      <h1>Direct Competitors</h1>
+      <p>Talk about the direct competitors here</p>
+      </div>
+      <div>
+      <h1>Indirect Competitors</h1>
+      <p className="">Talk about the indirect competitors here </p>
+      </div>
           </div>
         
       
