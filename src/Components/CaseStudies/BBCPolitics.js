@@ -65,7 +65,7 @@ function BBCPolitics() {
       <img src={BBCLogo} className="max-w-xs max-h-xs md:max-w-screen-xs md:min-w-xs rounded-lg md:h-initial motion-safe:animate-fadeInLeft  " />
       </div>
       <div>
-      <h1 className="text-4xl font-bold break-normal">The Specification</h1>
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold break-normal">The Specification</h1>
       <p className="pt-8">The BBC is the world's most recognized creative organisation and the state broadcaster in the United Kingdom for over 100 years. 
                       They broadcast and produce a variety of content. From drama, comedy, sports and news they broadcast across TV, digital and web platforms. 
                       The BBC User Experience and Design (UX&D) department shapes the user experience across the BBC's digital product suite. 
@@ -75,7 +75,7 @@ function BBCPolitics() {
       </div>
       </div>
       <div className="flex flex-col gap-8">
-      <h2 className="text-2xl font-bold break-normal">Project Background</h2>
+      <h2 className="text-xl md:text-2xl font-bold break-normal">Project Background</h2>
       <p className=" ">Due to a drop in interest amongst younger audiences across their services, 
       the BBC requested a new digital product that will help grow excitement of users between 18-24 years old to build trust as a credible news source and encourage them to explore,
        trust and use the suite of BBC products. The new digital product could be centred around a selection of themes including:</p>
@@ -102,7 +102,7 @@ function BBCPolitics() {
     {/* Demographic Content */}
     <div className="p-1 md:p-8 bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
       <div className="lg:px-32">
-    <h1 className="text-4xl font-bold break-normal">The Demographic</h1>
+    <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold break-normal">The Demographic</h1>
     <p className="text-justify py-8 lg:pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
         <div className="flex flex-col gap-8">
        
@@ -220,9 +220,9 @@ function BBCPolitics() {
       <img src ={spotify} className=""></img>
       
     </div>
-    <div className="flex flex-col  gap-8  lg:px-32 px-8 pb-8 ">
+    <div className="flex flex-col  gap-8  lg:px-32 lg:pr-32 px-8 pb-8 ">
       
-      <h1 className="text-4xl font-bold break-normal">Competitors</h1>
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold break-normal">Competitors</h1>
       <div className="flex flex-row gap-8 justify-between "> 
       <div>
       <h1>Direct Competitors</h1>
