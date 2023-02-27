@@ -224,12 +224,12 @@ function BBCPolitics() {
       
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold break-normal">Competitors</h1>
       <div className="flex flex-col md:flex-row gap-8 justify-between "> 
-      <div>
-      <h1>Direct Competitors</h1>
+      <div> 
+      <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">Direct Competitors</h1>
       <p>Talk about the direct competitors here</p>
       </div>
       <div>
-      <h1>Indirect Competitors</h1>
+      <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">Indirect Competitors</h1>
       <p className="">Talk about the indirect competitors here </p>
       </div>
           </div>
