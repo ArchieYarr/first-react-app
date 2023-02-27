@@ -59,7 +59,7 @@ function BBCPolitics() {
     {/* Specification content */}
     <div className = "lg:pr-32 px-2 md:px-0 py-8 md:py-0">
     
-      <div className="flex md:flex-row flex-col gap-8">
+      <div className="flex md:flex-row flex-col gap-8 pb-8">
       
       <div className = "pr-10">
       <img src={BBCLogo} className="max-w-xs max-h-xs md:max-w-screen-xs md:min-w-xs rounded-lg md:h-initial motion-safe:animate-fadeInLeft  " />
@@ -223,7 +223,7 @@ function BBCPolitics() {
     <div className="flex flex-col  gap-8  lg:px-32 lg:pr-32 px-8 pb-8 ">
       
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold break-normal">Competitors</h1>
-      <div className="flex flex-row gap-8 justify-between "> 
+      <div className="flex flex-col md:flex-row gap-8 justify-between "> 
       <div>
       <h1>Direct Competitors</h1>
       <p>Talk about the direct competitors here</p>
@@ -244,7 +244,7 @@ function BBCPolitics() {
     <div className="bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
   
     
-    <h1 className="text-4xl font-bold break-normal p-2 md:p-8 lg:px-32">Proposed Solution</h1>
+    <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold break-normal p-2 md:p-8 lg:px-32">Proposed Solution</h1>
     
     <div className = "flex flex-col md:flex-row gap-8 p-2 py-2 md:p-8 md:py-8">
       
