@@ -187,8 +187,8 @@ function BBCPolitics() {
           </table>
           </div>
           <div className="flex lg:flex-row flex-col">
-          <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ1}></img>
-          <img className = "drop-shadow-2xl rounded-lg object-contain h-max lg:w-3/6" src = {hmwQ2}></img>
+          <img className = "drop-shadow-2xl rounded-lg object-contain md:h-max lg:w-3/6" src = {hmwQ1}></img>
+          <img className = "drop-shadow-2xl rounded-lg object-contain md:h-max lg:w-3/6" src = {hmwQ2}></img>
           </div>
           </div>
         </div>
