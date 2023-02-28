@@ -103,7 +103,7 @@ function BBCPolitics() {
     <div className="p-1 md:p-8 bg-gradient-to-b from-base-100 to-bg-base-200 drop-shadow-2xl">
       <div className="lg:px-32">
     <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold break-normal">The Demographic</h1>
-    <p className="text-justify py-8 lg:pr-32">To learn more about the demographic I conducted primary and secondary research. </p>
+    <p className="text-justify py-8 lg:pr-32">To build a picture of the demographic I conducted primary and secondary research. I started by gaining insights into their technology habits and day-to-day lives according to large research institutes. </p>
         <div className="flex flex-col gap-8">
        
         <div className="grid lg:grid-cols-4 grid-cols-2 md:pr-32 gap-8">
@@ -223,10 +223,11 @@ function BBCPolitics() {
     <div className="flex flex-col  gap-8  lg:px-32 lg:pr-32 px-8 pb-8 ">
       
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold break-normal">Competitors</h1>
+      <p>Forming a picture of the competitors the BBC digital suite </p>
       <div className="flex flex-col md:flex-row gap-8 justify-between "> 
       <div> 
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">Direct Competitors</h1>
-      <p>Talk about the direct competitors here</p>
+      <p>A potential </p>
       </div>
       <div>
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">Indirect Competitors</h1>
