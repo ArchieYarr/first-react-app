@@ -223,11 +223,13 @@ function BBCPolitics() {
     <div className="flex flex-col  gap-8  lg:px-32 lg:pr-32 px-8 pb-8 ">
       
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold break-normal">Competitors</h1>
-      <p>Forming a picture of the competitors the BBC digital suite </p>
+      <p>Having built an image of the BBC and the demographic it is now important to consider the environment that a new product will exist within. 
+        This requires looking at the direct and indirect competition for the attention of the user demographic. </p>
       <div className="flex flex-col md:flex-row gap-8 justify-between "> 
       <div> 
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">Direct Competitors</h1>
-      <p>A potential </p>
+      <p>A BBC Politics would have an array of competitors in the mobile app landscape. 
+        Competing over different formats including audio, text and video. </p>
       </div>
       <div>
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">Indirect Competitors</h1>

@@ -18,7 +18,7 @@ function BBCPoliticsCard() {
       
             <div>
               
-            <Link className="btn btn-primary"  onClick={() => window.location.href = "/CaseStudies/BBCPolitics"} >View study</Link>
+            <Link className="btn btn-primary"  onClick={() => window.location.href = ""} >Coming Soon</Link>
             
             </div>
             </div>
