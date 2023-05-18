@@ -27,7 +27,7 @@ function Home() {
         <img className = "motion-safe:animate-wave"src = {wave}></img><a target="_blank" rel="noreferrer" href="https://icons8.com"></a>
       <h1 className="text-5xl font-bold">Hi I'm Archie! </h1>
       </div>
-      <p className="px-8 md:pr-24 py-6 ">I'm a Computing Science graduate and aspiring UX designer. Have a look at some of my work and learn a bit about me, feel free to get in touch too!</p>
+      <p className="px-8 md:pr-24 py-6 ">I'm a Computing Science graduate who's passionate about development, design and all things technology. Have a look at some of my work and learn a bit about me, feel free to get in touch too!</p>
       </div>
 
       <div className ="flex md:flex-row flex-col justify-center lg:gap-24 lg:pb-52 lg:px-52"  >
