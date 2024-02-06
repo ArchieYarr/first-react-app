@@ -33,7 +33,7 @@ import FigmaEmbed from 'react-figma-embed';
 function BBCPolitics() {
   return(
   
-    <div className="">
+    <div id = "BBCPolitics" className="">
   {/* -----------Title Hero----------- */}
     <div className=" hero bg-base-100" >
   
